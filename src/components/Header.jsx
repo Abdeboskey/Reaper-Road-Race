@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
+import logo from 'assets/full_pepper.png'
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
@@ -9,7 +10,7 @@ const Header = () => {
     <header className="sticky top-0 z-50">
       <nav className="flex items-center justify-between flex-wrap bg-red-500 p-6">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
-          <svg className="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+          <img className="h-12 mr-4" src={logo} alt="a white outline of a Carolina Reaper pepper in the shape of the race course with a green stem" />
           <span className="font-semibold text-xl tracking-tight">Reaper Road Race</span>
         </div>
         <div className="block lg:hidden">
