@@ -4,14 +4,14 @@ import logo from 'assets/full_pepper.png'
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
-  const linkStyle = "block mt-4 lg:inline-block lg:mt-0 text-white hover:text-green-300 mr-4"
+  const linkStyle = "block mt-4 lg:inline-block lg:mt-0 text-white hover:text-green-300 mr-6"
 
   return (
     <header className="sticky top-0 z-50">
-      <nav className="flex items-center justify-between flex-wrap bg-red-500 p-6">
-        <div className="flex items-center flex-shrink-0 text-white mr-6">
+      <nav className="flex items-center justify-between flex-wrap bg-gradient-to-r from-red-500 to-red-800 p-6">
+        <div className="flex items-center flex-shrink-0 text-white sm:mr-12">
           <img className="h-12 mr-4" src={logo} alt="a white outline of a Carolina Reaper pepper in the shape of the race course with a green stem" />
-          <span className="font-semibold text-xl tracking-tight">Reaper Road Race</span>
+          <span className="text-2xl italic tracking-tight">Reaper Road Race</span>
         </div>
         <div className="block lg:hidden">
           <button 
