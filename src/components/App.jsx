@@ -1,13 +1,14 @@
 import { Routes, Route } from 'react-router-dom'
 import Layout from 'components/Layout'
+import Home from 'pages/Home'
 
 function App() {
 
   return (
-    <div className="relative bg-gray-900 h-screen font-mono">
+    <div className="relative bg-gray-900 min-h-screen m-0 font-mono">
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<h1>Home</h1>} />
+          <Route index element={<Home />} />
           <Route path="more" element={<h1>More Info</h1>} />
           <Route path="travel" element={<h1>Travel & Parking</h1>} />
           <Route path="results" element={<h1>Results</h1>} />
