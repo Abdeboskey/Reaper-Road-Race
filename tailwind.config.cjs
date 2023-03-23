@@ -6,7 +6,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      heading: ['"Potta One"'],
+      logo: ['"Potta One"'],
+      heading: ['"Bebas Neue"', 'sans-serif'],
+      body: ['"Jost"', 'sans-serif'],
     },
     extend: {},
   },
