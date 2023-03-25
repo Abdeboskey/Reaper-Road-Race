@@ -33,7 +33,7 @@ const Header = () => {
               HOME
             </NavLink>
             <NavLink 
-              to="/more"
+              to="/race-info"
               className={linkStyle}
               onClick={() => setIsNavOpen(!isNavOpen)}
             >

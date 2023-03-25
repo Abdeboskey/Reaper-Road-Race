@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Layout from 'components/Layout'
 import Home from 'pages/Home'
+import RaceInfo from 'pages/RaceInfo'
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="more" element={<h1>More Info</h1>} />
+          <Route path="race-info" element={<RaceInfo />} />
           <Route path="travel" element={<h1>Travel & Parking</h1>} />
           <Route path="results" element={<h1>Results</h1>} />
           <Route path="sponsors" element={<h1>Sponsors</h1>} />
