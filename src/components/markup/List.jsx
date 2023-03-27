@@ -1,5 +1,6 @@
 const List = ({ children }) => {
-  const style = "text-left py-2 px-6"
+  const borderDiv = "bg-gradient-to-r from-red-500 to-transparent w-fit my-4 mx-auto py-1 px-0"
+  const style = "text-left py-3 px-12 bg-gray-900 h-full w-full" 
   const itemStyle = "list-disc p-1"
 
   const createListItems = () => {
@@ -16,9 +17,11 @@ const List = ({ children }) => {
   }
 
   return (
-    <ul className={style}>
-      {createListItems()}
-    </ul>
+    <div className={borderDiv}>
+      <ul className={style}>
+        {createListItems()}
+      </ul>
+    </div>
   )
 }
 
