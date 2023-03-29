@@ -64,11 +64,13 @@ const RaceInfo = () => {
         ]}
       </List>
       <P>
-        Online registration will close on Thursday, June 8th, 2023 at 11:59pm EDT.
+        Online registration will close on Thursday, June 8th, 2023 at 11:59pm
+        EDT.
       </P>
       <P>
         On-site registration will be available on Saturday, June 10th, 2023
-        from 8:00am - 9:00am. On-site registration fees will cost an additional $10 as listed below:
+        from 8:00am - 9:00am. On-site registration fees will cost an additional
+        $10 as listed below:
       </P>
       <List>
         {[
@@ -117,21 +119,23 @@ const RaceInfo = () => {
         time). Skaters must be present to receive prizes.
       </P>
       <P>The following categories will be recognized:</P>
+      <H3>11.5K & Moreathon:</H3>
       <List>
         {[
-          "11.5K & Moreathon",
           "Men's & Women's Overall Inline",
           "Men's & Women's Overall Quad",
           "Men's & Women's 12 & Under",
           "Men's & Women's 13-18"
         ]}
       </List>
+      <H3>Moreathon Relay:</H3>
+      <List>
+        {[
+          "Top 3 Overall Teams",
+        ]}
+      </List>
       <P>
         * Age categories are determined by age of participant on race day. *
-      </P>
-      <H3>Moreathon Relay</H3>
-      <P>
-        Top 3 Overall Teams
       </P>
     </Main>
   )
