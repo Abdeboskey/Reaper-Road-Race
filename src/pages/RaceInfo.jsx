@@ -69,16 +69,9 @@ const RaceInfo = () => {
       </P>
       <P>
         On-site registration will be available on Saturday, June 10th, 2023
-        from 8:00am - 9:00am. On-site registration fees will cost an additional
-        $10 as listed below:
+        from 8:00am - 9:00am and will cost an additional
+        $10 per category.
       </P>
-      <List>
-        {[
-          "11.5K On-Site - $50",
-          "Moreathon On-Site - $90",
-          "Moreathon Relay Team On-Site - $150",
-        ]}
-      </List>
       <CtaButton />
       <H2>Relay Info</H2>
       <P>Team up with your friends to complete the Moreathon!</P>
