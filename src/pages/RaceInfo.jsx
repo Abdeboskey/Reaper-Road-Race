@@ -5,11 +5,20 @@ import P from 'components/markup/P'
 import List from 'components/markup/List'
 import Main from 'components/markup/Main'
 import CtaButton from 'components/CtaButton'
+import CategoryContainer from 'components/CategoryContainer'
 
 const RaceInfo = () => {
+  const aStyle = "text-blue-400 underline"
   return (
     <Main>
       <H1>Race Info</H1>
+      <P>Here you can learn more about:</P>
+      <a href="#course" className={aStyle}><P>Course Info</P></a>
+      <a href="#safety" className={aStyle}><P>Safety Info</P></a>
+      <a href="#options" className={aStyle}><P>Event Options & Schedule</P></a>
+      <a href="#relay" className={aStyle}><P>Relay Info</P></a>
+      <a href="#awards" className={aStyle}><P>Awards</P></a>
+      <div id="course" className="pt-24">
       <H2>Course Info</H2>
       {/* Insert Course Map Here */}
       <P>
@@ -36,33 +45,45 @@ const RaceInfo = () => {
         skaters (see diagram below for more info on the relay zone).
       </P>
       {/* Insert relay-zone diagram here */}
+      </div>
+      <div id="safety" className="pt-24"/>
       <H2>Safety Info</H2>
       <P>
         Each event will be led out by a police squad car, with additional
         roving course marshals on motorcycles.
       </P>
-      <H2>Event Options & Schedule</H2>
-      {/* Insert event category cards here */}
-      <H3>Event Schedule</H3>
-      <List>
-        {[
-          "8:00am - On-site registration and packet pick-up opens",
-          "9:00am - On-site registration closes",
-          "9:15am - On-site packet pick-up closes",
-        ]}
-      </List>
       <P>
         Race numbers should be affixed to the right hip with the safety pins
         provided in your registration packet.
       </P>
-      <H3>Registration Fees</H3>
-      <List>
-        {[
-          "11.5K - $40",
-          "Moreathon - $80",
-          "Moreathon Relay Team - $140",
-        ]}
-      </List>
+      <div id="options" className="pt-24"/>
+      <H2>Event Options & Schedule</H2>
+      <CategoryContainer />
+      <div className="md:flex justify-around">
+        <div>
+          <H3>Event Schedule</H3>
+          <List>
+            {[
+              "8:00am - On-site registration and packet pick-up opens",
+              "9:00am - On-site registration closes",
+              "9:15am - On-site packet pick-up closes",
+              "9:30am - Moreathon & Relay Start",
+              "9:40am - 11.5K Start",
+              "12:30pm - Awards Ceremony",
+            ]}
+          </List>
+        </div>
+        <div>
+          <H3>Registration Fees</H3>
+          <List>
+            {[
+              "11.5K - $40",
+              "Moreathon - $80",
+              "Moreathon Relay Team - $140",
+            ]}
+          </List>
+        </div>
+      </div>
       <P>
         Online registration will close on Thursday, June 8th, 2023 at 11:59pm
         EDT.
@@ -73,6 +94,7 @@ const RaceInfo = () => {
         $10 per category.
       </P>
       <CtaButton />
+      <div id="relay" className="pt-24"/>
       <H2>Relay Info</H2>
       <P>Team up with your friends to complete the Moreathon!</P>
       <List>
@@ -82,18 +104,17 @@ const RaceInfo = () => {
           "Teams may be comprised of same or mixed discipline.",
         ]}
       </List>
+      <P>The registration fee for a relay team is $140</P>
       <P>
-        The registration fee for a relay team is $140. The team captain will
-        register for the whole team, however each member will need to sign a
-        waiver.
+        The team captain can register for the whole team, however each member
+        will need to sign a waiver.
       </P>
       <P>OR</P>
       <P>
-        The registration fee for a relay team is $140. The team captain will
-        register first for the team, and then receive a specific discount code
-        to register the remainder of their team. Please ensure to select the
-        same team name for the remainder of your team. Each team member will be
-        prompted to sign a waiver.
+        The team captain can register first for the team, and then receive a
+        specific discount code to register the remainder of their team. Please
+        ensure to select the same team name for the remainder of your team.
+        Each team member will be prompted to sign a waiver.
       </P>
       <H3>Relay Zone</H3>
       <P>
@@ -106,27 +127,35 @@ const RaceInfo = () => {
       <P>//BATON INFORMATION//</P>
       {/* Insert map of relay zone/3-lane area */}
       <H2>Race Bibs & Chip Timing</H2>
+      <div id="awards" className="pt-24"/>
       <H2>Awards</H2>
       <P>
-        Awards will be held at the conclusion of the event (at approximately X
-        time). Skaters must be present to receive prizes.
+        Awards will be held at the conclusion of the event (at approximately
+        12:30 PM). Skaters must be present to receive prizes.
       </P>
       <P>The following categories will be recognized:</P>
-      <H3>11.5K & Moreathon:</H3>
-      <List>
-        {[
-          "Men's & Women's Overall Inline",
-          "Men's & Women's Overall Quad",
-          "Men's & Women's 12 & Under",
-          "Men's & Women's 13-18"
-        ]}
-      </List>
-      <H3>Moreathon Relay:</H3>
-      <List>
-        {[
-          "Top 3 Overall Teams",
-        ]}
-      </List>
+      <div className="md:flex justify-around">
+        <div>
+          <H3>11.5K & Moreathon</H3>
+          <List>
+            {[
+              "Men's & Women's Overall Inline",
+              "Men's & Women's Overall Quad",
+              "Men's & Women's 12 & Under",
+              "Men's & Women's 13-18"
+            ]}
+          </List>
+        </div>
+        <div>
+          <H3>Moreathon Relay</H3>
+          <List>
+            {[
+              "Top 3 Overall Teams",
+              "Best Team Name",
+            ]}
+          </List>
+        </div>
+      </div>
       <P>
         * Age categories are determined by age of participant on race day. *
       </P>
