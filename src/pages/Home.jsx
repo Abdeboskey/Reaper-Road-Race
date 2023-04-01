@@ -5,6 +5,7 @@ import P from 'components/markup/P'
 import Main from 'components/markup/Main'
 import List from 'components/markup/List'
 import CtaButton from 'components/CtaButton'
+import CategoryContainer from 'components/CategoryContainer'
 
 import fullLogo from 'assets/color_logo_full.svg'
 import heroBG from 'assets/skaters.jpg'
@@ -24,14 +25,12 @@ const Home = () => {
         <H2>
           Saturday, June 10th, 2023
         </H2>
-        <CtaButton />
         <P>
           Get your summer skate season heated up the right way at the first
           annual Carolina Reaper Road Race.
         </P>
-        <P>
-          // INSERT EVENT CATEGORIES TABLE //
-        </P>
+        <CategoryContainer />
+        <CtaButton />
         <H2>Registration Fees</H2>
         <List>
           {[
@@ -41,7 +40,7 @@ const Home = () => {
           ]}
         </List>
         <P>
-          Pre-Register by May 26, 2023 to guarantee yout t-shirt size.
+          Pre-Register by May 26, 2023 to guarantee your t-shirt size.
         </P>
         <P>
           Online Registration closes on June 8, 2023.
