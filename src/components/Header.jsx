@@ -1,14 +1,39 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import CtaButton from 'components/CtaButton'
 import logo from 'assets/white_pepper.svg'
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
+  const [showHeader, setShowHeader] = useState(true)
+  const [lastScrollY, setLastScrollY] = useState(0)
   const linkStyle = "block mt-4 lg:inline-block lg:mt-0 text-2xl tracking-wide text-white hover:text-green-300 mr-6"
 
+  const handleScroll = () => {
+    if (typeof window !== 'undefined') {
+      if (window.scrollY > lastScrollY && window.scrollY < lastScrollY + 50) {
+        setShowHeader(false)
+        setIsNavOpen(false)
+      } else {
+        setShowHeader(true)
+      }
+    }
+
+    setLastScrollY(window.scrollY)
+  }
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', handleScroll)
+
+      return () => {
+        window.removeEventListener('scroll', handleScroll)
+      }
+    }
+  }, [lastScrollY])
+
   return (
-    <header className="sticky top-0 font-heading z-50">
+    <header className={`sticky ${showHeader ? 'top-0' : '-top-[500px]'} font-heading transition-all duration-300 ease-in-out z-50`}>
       <nav className="flex items-center justify-between flex-wrap bg-gradient-to-r from-red-500 to-red-800 p-3 pr-6">
         <div className="flex items-center flex-shrink-0 text-white sm:mr-12">
           <img className="h-20 mr-4" src={logo} alt="a white outline of a Carolina Reaper pepper in the shape of the race course with a green stem" />

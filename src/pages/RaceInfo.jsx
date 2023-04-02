@@ -18,8 +18,7 @@ const RaceInfo = () => {
       <a href="#options" className={aStyle}><P>Event Options & Schedule</P></a>
       <a href="#relay" className={aStyle}><P>Relay Info</P></a>
       <a href="#awards" className={aStyle}><P>Awards</P></a>
-      <div id="course" className="pt-24">
-      <H2>Course Info</H2>
+      <H2 id="course">Course Info</H2>
       {/* Insert Course Map Here */}
       <P>
         198 Perimeter Rd, Greenville, SC 29605
@@ -45,9 +44,7 @@ const RaceInfo = () => {
         skaters (see diagram below for more info on the relay zone).
       </P>
       {/* Insert relay-zone diagram here */}
-      </div>
-      <div id="safety" className="pt-24"/>
-      <H2>Safety Info</H2>
+      <H2 id="safety">Safety Info</H2>
       <P>
         Each event will be led out by a police squad car, with additional
         roving course marshals on motorcycles.
@@ -56,8 +53,7 @@ const RaceInfo = () => {
         Race numbers should be affixed to the right hip with the safety pins
         provided in your registration packet.
       </P>
-      <div id="options" className="pt-24"/>
-      <H2>Event Options & Schedule</H2>
+      <H2 id="options">Event Options & Schedule</H2>
       <CategoryContainer />
       <div className="md:flex justify-around">
         <div>
@@ -94,8 +90,7 @@ const RaceInfo = () => {
         $10 per category.
       </P>
       <CtaButton />
-      <div id="relay" className="pt-24"/>
-      <H2>Relay Info</H2>
+      <H2 id="relay">Relay Info</H2>
       <P>Team up with your friends to complete the Moreathon!</P>
       <List>
         {[
@@ -127,8 +122,7 @@ const RaceInfo = () => {
       <P>//BATON INFORMATION//</P>
       {/* Insert map of relay zone/3-lane area */}
       <H2>Race Bibs & Chip Timing</H2>
-      <div id="awards" className="pt-24"/>
-      <H2>Awards</H2>
+      <H2 id="awards">Awards</H2>
       <P>
         Awards will be held at the conclusion of the event (at approximately
         12:30 PM). Skaters must be present to receive prizes.
