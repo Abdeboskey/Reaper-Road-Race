@@ -1,7 +1,7 @@
 import CategoryCard from 'components/CategoryCard'
 
 const CategoryContainer = () => {
-  const style = "md:flex bg-gradient-to-r from-red-500 to-red-800 rounded-xl p-2 my-4"
+  const style = "md:flex bg-gradient-to-r from-red-400 to-red-700 shadow-lg rounded-xl p-2 my-4"
   
   return (
     <div className={style}>
