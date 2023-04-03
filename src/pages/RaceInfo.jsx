@@ -89,7 +89,7 @@ const RaceInfo = () => {
         from 8:00am - 9:00am and will cost an additional
         $10 per category.
       </P>
-      <CtaButton />
+      <CtaButton dark/>
       <H2 id="relay">Relay Info</H2>
       <P>Team up with your friends to complete the Moreathon!</P>
       <List>

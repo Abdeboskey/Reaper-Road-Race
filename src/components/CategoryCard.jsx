@@ -10,11 +10,11 @@ const CategoryCard = (props) => {
     startTime,
   } = props
 
-  const style = "bg-gray-900 rounded-xl m-2"
+  const style = "bg-gray-100 shadow-inner rounded-xl m-3"
   
   return (
     <div className={style}>
-      <div className="bg-gradient-to-b from-gray-700 to-transparent rounded-t-xl">
+      <div className="rounded-t-xl">
         <H3>{name}</H3>
       </div>
       <div className="p-2">

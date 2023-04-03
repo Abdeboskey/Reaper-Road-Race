@@ -30,7 +30,7 @@ const Home = () => {
           annual Carolina Reaper Road Race.
         </P>
         <CategoryContainer />
-        <CtaButton />
+        <CtaButton dark/>
         <H2>Registration Fees</H2>
         <List>
           {[
@@ -68,7 +68,7 @@ const Home = () => {
         <P>
           * Age categories are determined by age of participant on race day. *
         </P>
-        <CtaButton />
+        <CtaButton dark/>
         <P>
           Stay in town for a fun social skate on the scenic Swamp Rabbit Trail
           on Sunday.

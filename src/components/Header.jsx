@@ -34,7 +34,7 @@ const Header = () => {
 
   return (
     <header className={`sticky ${showHeader ? 'top-0' : '-top-[500px]'} font-heading transition-all duration-300 ease-in-out z-50`}>
-      <nav className="flex items-center justify-between flex-wrap bg-gradient-to-r from-red-500 to-red-800 p-3 pr-6">
+      <nav className="flex items-center justify-between flex-wrap bg-gradient-to-r from-red-400 to-red-700 p-3 pr-6">
         <div className="flex items-center flex-shrink-0 text-white sm:mr-12">
           <img className="h-20 mr-4" src={logo} alt="a white outline of a Carolina Reaper pepper in the shape of the race course with a green stem" />
           <span className="text-xl font-logo md:text-2xl italic tracking-tight">CAROLINA REAPER<br /> ROAD RACE</span>

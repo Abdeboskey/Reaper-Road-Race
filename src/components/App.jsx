@@ -10,7 +10,7 @@ import Contact from 'pages/Contact'
 function App() {
 
   return (
-    <div className="relative bg-gray-900 min-h-screen m-0">
+    <div className="relative bg-gray-100 min-h-screen m-0">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
