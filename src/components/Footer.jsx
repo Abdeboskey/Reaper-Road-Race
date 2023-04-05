@@ -3,7 +3,7 @@ import logo from 'assets/white_pepper.svg'
 
 const Footer = () => {
   const wrapperStyle = "absolute bottom-0 w-screen"
-  const footerStyle = "flex justify-center items-center h-20 text-center text-gray-100 bg-gradient-to-r from-red-400 to-red-700"
+  const footerStyle = "flex justify-center items-center h-20 text-center text-gray-100 bg-gradient-to-r from-red-500 to-red-700 via-orange-400"
 
   return (
     <div className={wrapperStyle}>
@@ -13,8 +13,8 @@ const Footer = () => {
         alt="Outline of white pepper in the shape of the course"
       />
       <footer className={footerStyle}>
-        <P light>
-          ©2023 Carolina Reaper Road Race 
+        <P light center>
+          © Carolina Reaper Road Race, 2023
         </P>
       </footer>
     </div>
