@@ -9,18 +9,19 @@ import CategoryContainer from 'components/CategoryContainer'
 
 const RaceInfo = () => {
   const aStyle = "text-blue-400 underline"
+
   return (
     <Main>
       <H1>Race Info</H1>
-      <P>Here you can learn more about:</P>
-      <a href="#course" className={aStyle}><P>Course Info</P></a>
-      <a href="#safety" className={aStyle}><P>Safety Info</P></a>
-      <a href="#options" className={aStyle}><P>Event Options & Schedule</P></a>
-      <a href="#relay" className={aStyle}><P>Relay Info</P></a>
-      <a href="#awards" className={aStyle}><P>Awards</P></a>
+      <P center>Here you can learn more about:</P>
+      <P center><a href="#course" className={aStyle}>Course Info</a></P>
+      <P center><a href="#safety" className={aStyle}>Safety Info</a></P>
+      <P center><a href="#options" className={aStyle}>Event Options & Schedule</a></P>
+      <P center><a href="#relay" className={aStyle}>Relay Info</a></P>
+      <P center><a href="#awards" className={aStyle}>Awards</a></P>
       <H2 id="course">Course Info</H2>
       {/* Insert Course Map Here */}
-      <P>
+      <P center>
         198 Perimeter Rd, Greenville, SC 29605
       </P>
       <P>
@@ -91,7 +92,7 @@ const RaceInfo = () => {
       </P>
       <CtaButton dark/>
       <H2 id="relay">Relay Info</H2>
-      <P>Team up with your friends to complete the Moreathon!</P>
+      <P center>Team up with your friends to complete the Moreathon!</P>
       <List>
         {[
           "Teams may be comprised of 2, 3, or 4 skaters.",
@@ -99,12 +100,12 @@ const RaceInfo = () => {
           "Teams may be comprised of same or mixed discipline.",
         ]}
       </List>
-      <P>The registration fee for a relay team is $140</P>
+      <P center>The registration fee for a relay team is $140</P>
       <P>
         The team captain can register for the whole team, however each member
         will need to sign a waiver.
       </P>
-      <P>OR</P>
+      <P center>OR</P>
       <P>
         The team captain can register first for the team, and then receive a
         specific discount code to register the remainder of their team. Please
@@ -119,15 +120,14 @@ const RaceInfo = () => {
         caution when exiting the course after a hand-off.
       </P>
       <H3>Handing Off</H3>
-      <P>//BATON INFORMATION//</P>
+      <P center>//BATON INFORMATION//</P>
       {/* Insert map of relay zone/3-lane area */}
-      <H2>Race Bibs & Chip Timing</H2>
       <H2 id="awards">Awards</H2>
       <P>
         Awards will be held at the conclusion of the event (at approximately
         12:30 PM). Skaters must be present to receive prizes.
       </P>
-      <P>The following categories will be recognized:</P>
+      <P center>The following categories will be recognized:</P>
       <div className="md:flex justify-around">
         <div>
           <H3>11.5K & Moreathon</H3>
@@ -150,7 +150,7 @@ const RaceInfo = () => {
           </List>
         </div>
       </div>
-      <P>
+      <P center>
         * Age categories are determined by age of participant on race day. *
       </P>
     </Main>

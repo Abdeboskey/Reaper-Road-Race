@@ -15,8 +15,16 @@ const Home = () => {
   return (
     <div>
       <div className="relative w-screen text-white">
-        <img className="w-screen" src={heroBG} alt="Inline skaters standing next to each other on a road"/>
-        <img className="absolute inset-x-1/2 -translate-x-1/2 inset-y-1/2 -translate-y-1/2 w-3/5 md:w-1/2" src={fullLogo} alt="Carolina Reaper Road Race Logo" />
+        <img
+          className="w-screen"
+          src={heroBG}
+          alt="Inline skaters standing next to each other on a road"
+        />
+        <img
+          className="absolute inset-x-1/2 -translate-x-1/2 inset-y-1/2 -translate-y-1/2 w-3/5 md:w-1/2"
+          src={fullLogo}
+          alt="Carolina Reaper Road Race Logo"
+        />
       </div>
       <Main>
         <H1>
@@ -25,8 +33,8 @@ const Home = () => {
         <H2>
           Saturday, June 10th, 2023
         </H2>
-        <P>
-          Get your summer skate season heated up the right way at the first
+        <P center>
+          Start your skates a'sizzlin at the first
           annual Carolina Reaper Road Race.
         </P>
         <CategoryContainer />
@@ -65,11 +73,11 @@ const Home = () => {
             "Top 3 Overall Teams",
           ]}
         </List>
-        <P>
+        <P center>
           * Age categories are determined by age of participant on race day. *
         </P>
         <CtaButton dark/>
-        <P>
+        <P center>
           Stay in town for a fun social skate on the scenic Swamp Rabbit Trail
           on Sunday.
         </P>
