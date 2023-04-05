@@ -8,7 +8,7 @@ const Results = () => {
   return (
     <Main>
       <H1>Results</H1>
-      <P>
+      <P center>
         Visit this page after the race to view the results of the event!
       </P>
     </Main>

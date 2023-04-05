@@ -10,7 +10,7 @@ const CategoryCard = (props) => {
     startTime,
   } = props
 
-  const style = "bg-gray-100 shadow-inner rounded-xl m-3"
+  const style = "md:w-1/3 bg-gradient-to-b from-orange-300 from-10% shadow-md rounded-xl m-3"
   
   return (
     <div className={style}>
@@ -18,9 +18,9 @@ const CategoryCard = (props) => {
         <H3>{name}</H3>
       </div>
       <div className="p-2">
-        <P>{description}</P>
-        <P>{numLaps} {numLaps > 1 ? "laps" : "lap"} / {distance}mi</P>
-        <P>Start Time: {startTime} AM</P>
+        <P center>{description}</P>
+        <P center>{numLaps} {numLaps > 1 ? "laps" : "lap"} / {distance}mi</P>
+        <P center>Start Time: {startTime} AM</P>
       </div>
     </div>
   )

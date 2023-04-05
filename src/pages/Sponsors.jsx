@@ -8,7 +8,7 @@ const Sponsors = () => {
   return (
     <Main>
       <H1>Sponsors</H1>
-      <P>
+      <P center>
         Thank you so much to our partners!
       </P>
     </Main>
