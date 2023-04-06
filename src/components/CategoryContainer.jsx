@@ -7,7 +7,7 @@ const CategoryContainer = () => {
     <div className={style}>
       <CategoryCard
         name="11.5 K"
-        description="Cheer on the Moreathon and Relay starts, then try to chase them all down in this single lap race."
+        description="Cheer for the Moreathon skaters, then chase 'em down in this single lap race."
         numLaps="1"
         distance="7.2"
         startTime="9:40"
