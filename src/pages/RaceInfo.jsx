@@ -8,7 +8,7 @@ import CtaButton from 'components/CtaButton'
 import CategoryContainer from 'components/CategoryContainer'
 
 const RaceInfo = () => {
-  const aStyle = "text-blue-400 underline"
+  const aStyle = "text-orange-400 underline"
 
   return (
     <Main>
@@ -25,27 +25,38 @@ const RaceInfo = () => {
         198 Perimeter Rd, Greenville, SC 29605
       </P>
       <P>
-        All races will be held on a 7.2 mile loop, traveling clockwise. The
-        loop is hilly, but each hill has roll-out. Skaters must be comfortable
-        controlling their speed on a downhill, and completing a righ-hand turn on
-        a downhill. <span className="font-bold">Helmets are required for all
-        participants</span>.
+        All divisions of the race will be held on a 7.2 mile clockwise loop.
+        11.5K entrants will complete a single lap of the course, and the
+        Moreathon and relay team entrants will complete 4 laps of the course,
+        totaling 28.8 miles. The loop is hilly, but each downhill rolls out.
+        Skaters must be comfortable controlling their speed downhill, and
+        completing a right-hand turn on a downhill slope.
       </P>
       <P>
         The loop has one right-hand turn close to the start/finish line which
-        will be monitored by a course marshal. The loop is an open-road,
-        low-traffic course. Skaters must observe the "yellow line rule", i.e.
-        must not cross the yellow line while completing the event.
+        will be monitored by a course marshal. The loop is an open, low
+        traffic, road course. Skaters must observe the "yellow line rule", that
+        is, they must not cross the yellow line during the event.
       </P>
       <P>
-        In the last approx. 200m leading up to the start/finish the road splits
-        into 3 lanes. This section of the course is our designated relay-zone.
-        The left-most lane will remian closed for oncoming traffic, the middle
-        lane is for solo-skaters, and the right-hand lane is for relaying
-        skaters (see diagram below for more info on the relay zone).
+        In approximately the last 200 meters leading up to the start/finish
+        line the road splits into 2 lanes. This section of the course is our
+        designated relay zone. The left lane will be used by all solo skaters, to
+        provide room for the relay skaters to safely make baton hand offs in the
+        main traveling lane. Solo skaters will merge back in to the main
+        traveling lane before crossing the start/finish line. (see diagram
+        below for more info on the relay zone).
       </P>
       {/* Insert relay-zone diagram here */}
       <H2 id="safety">Safety Info</H2>
+      <P>
+        <span className="font-bold">
+          Helmets are required for all
+          participants
+        </span>
+        . Additional PPE (wrist guards, knee pads, and elbow pads) are
+        recommended for added personal safety.
+      </P>
       <P>
         Each event will be led out by a police squad car, with additional
         roving course marshals on motorcycles.
@@ -64,8 +75,8 @@ const RaceInfo = () => {
               "8:00am - On-site registration and packet pick-up opens",
               "9:00am - On-site registration closes",
               "9:15am - On-site packet pick-up closes",
-              "9:30am - Moreathon & Relay Start",
-              "9:40am - 11.5K Start",
+              "9:30am - Moreathon & Relay races begin",
+              "9:40am - 11.5K race begins",
               "12:30pm - Awards Ceremony",
             ]}
           </List>
@@ -115,7 +126,8 @@ const RaceInfo = () => {
       <H3>Relay Zone</H3>
       <P>
         The relay zone will be marked by //INSERT MARKING HERE//. Skaters will
-        relay in the right-hand most lane. Skaters will need to use caution and
+        relay in the right-hand traveling lane on the final straight leading up
+        to the start/finish line. Relay skaters will need to use caution and
         judgement to avoid stepping out in front of another skater, and must use
         caution when exiting the course after a hand-off.
       </P>
