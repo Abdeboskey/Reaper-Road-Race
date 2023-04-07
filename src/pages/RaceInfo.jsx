@@ -19,8 +19,10 @@ const RaceInfo = () => {
       <P center><a href="#options" className={aStyle}>Event Options & Schedule</a></P>
       <P center><a href="#relay" className={aStyle}>Relay Info</a></P>
       <P center><a href="#awards" className={aStyle}>Awards</a></P>
-      <H2 id="course">Course Info</H2>
+      <H2 id="course">Course Info 📍</H2>
       {/* Insert Course Map Here */}
+      {/* <div className="strava-embed-placeholder h-20" data-embed-type="route" data-embed-id="3072288653653574332" data-full-width="true"></div> */}
+      <iframe className="w-100" frameborder="0" allowtransparency="true" scrolling="no" src="https://www.strava.com/routes/3072288653653574332/embed"></iframe>
       <P center>
         198 Perimeter Rd, Greenville, SC 29605
       </P>
@@ -48,7 +50,11 @@ const RaceInfo = () => {
         below for more info on the relay zone).
       </P>
       {/* Insert relay-zone diagram here */}
-      <H2 id="safety">Safety Info</H2>
+      <H2 id="safety">Safety Info ⚠️</H2>
+      <P>
+        All skaters must attend the mandatory safety briefing at 9:20am, 10 minutes before
+        the Moreathon start.
+      </P>
       <P>
         <span className="font-bold">
           Helmets are required for all
@@ -62,10 +68,15 @@ const RaceInfo = () => {
         roving course marshals on motorcycles.
       </P>
       <P>
+        This is an open-road course with low to medium traffic. Skaters will
+        need to exercise awareness, and prioritize your safety and the
+        safety of your fellow competitors.
+      </P>
+      <P>
         Race numbers should be affixed to the right hip with the safety pins
         provided in your registration packet.
       </P>
-      <H2 id="options">Event Options & Schedule</H2>
+      <H2 id="options">Event Options & Schedule ⏱️</H2>
       <CategoryContainer />
       <div className="md:flex justify-around">
         <div>
@@ -92,17 +103,17 @@ const RaceInfo = () => {
           </List>
         </div>
       </div>
-      <P>
+      <P center>
         Online registration will close on Thursday, June 8th, 2023 at 11:59pm
         EDT.
       </P>
-      <P>
+      <P center>
         On-site registration will be available on Saturday, June 10th, 2023
         from 8:00am - 9:00am and will cost an additional
         $10 per category.
       </P>
       <CtaButton dark/>
-      <H2 id="relay">Relay Info</H2>
+      <H2 id="relay">Relay Info 🏁</H2>
       <P center>Team up with your friends to complete the Moreathon!</P>
       <List>
         {[
@@ -131,10 +142,8 @@ const RaceInfo = () => {
         judgement to avoid stepping out in front of another skater, and must use
         caution when exiting the course after a hand-off.
       </P>
-      <H3>Handing Off</H3>
-      <P center>//BATON INFORMATION//</P>
       {/* Insert map of relay zone/3-lane area */}
-      <H2 id="awards">Awards</H2>
+      <H2 id="awards">Awards 🏅</H2>
       <P>
         Awards will be held at the conclusion of the event (at approximately
         12:30 PM). Skaters must be present to receive prizes.
