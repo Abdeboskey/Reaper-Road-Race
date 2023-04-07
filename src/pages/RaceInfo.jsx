@@ -131,17 +131,17 @@ const RaceInfo = () => {
       <P center>Team up with your friends to complete the Moreathon!</P>
       <List>
         {[
-          "Teams may be comprised of 2, 3, or 4 skaters.",
-          "Teams may be comprised of same or mixed genders.",
-          "Teams may be comprised of same or mixed discipline.",
+          "Teams may be comprised of 2, 3, or 4 skaters",
+          "Teams may be comprised of same or mixed genders",
+          "Teams may be comprised of same or mixed discipline",
         ]}
       </List>
-      <P center>The registration fee for a relay team is $140</P>
+      <P center>The registration fee for a relay team of any size is $140.</P>
       <P>
         The team captain can register for the whole team, however each member
         will need to sign a waiver.
       </P>
-      <P center>OR</P>
+      <P center>- OR -</P>
       <P>
         The team captain can register first for the team, and then receive a
         specific discount code to register the remainder of their team. Please
