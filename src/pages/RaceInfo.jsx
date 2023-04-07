@@ -20,9 +20,8 @@ const RaceInfo = () => {
       <P center><a href="#relay" className={aStyle}>Relay Info</a></P>
       <P center><a href="#awards" className={aStyle}>Awards</a></P>
       <H2 id="course">Course Info 📍</H2>
-      {/* Insert Course Map Here */}
       {/* <div className="strava-embed-placeholder h-20" data-embed-type="route" data-embed-id="3072288653653574332" data-full-width="true"></div> */}
-      <iframe className="w-100" frameborder="0" allowtransparency="true" scrolling="no" src="https://www.strava.com/routes/3072288653653574332/embed"></iframe>
+      <iframe className="w-full aspect-[4/5] md:aspect-[4/4] lg:aspect-[4/3]" frameBorder="0" allowtransparency="true" scrolling="no" src="https://strava-embeds.com/route/3072288653653574332"></iframe>
       <P center>
         198 Perimeter Rd, Greenville, SC 29605
       </P>
