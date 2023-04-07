@@ -99,7 +99,7 @@ const RaceInfo = () => {
           </List>
         </div>
         <div>
-          <H3>Registration Fees</H3>
+          <H3>Pre-Registration Fees</H3>
           <List>
             {[
               "11.5K - $40",
@@ -107,6 +107,7 @@ const RaceInfo = () => {
               "Moreathon Relay Team - $140",
             ]}
           </List>
+          <P center>On-site registration fees will cost an additional $10 per category.</P>
         </div>
       </div>
       <H3>Sunday Swamp Rabbit Social</H3>
