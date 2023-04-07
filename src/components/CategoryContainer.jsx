@@ -6,13 +6,6 @@ const CategoryContainer = () => {
   return (
     <div className={style}>
       <CategoryCard
-        name="11.5 K"
-        description="Cheer for the Moreathon skaters, then chase 'em down in this single lap race."
-        numLaps="1"
-        distance="7.2"
-        startTime="9:40"
-      />
-      <CategoryCard
         name="Moreathon"
         description="When a Marathon just isn't enough anymore, we offer you the Moreathon."
         numLaps="4"
@@ -25,6 +18,13 @@ const CategoryContainer = () => {
         numLaps="4"
         distance="28.8"
         startTime="9:30"
+      />
+      <CategoryCard
+        name="11.5 K"
+        description="Cheer for the Moreathon skaters, then chase 'em down in this single lap race."
+        numLaps="1"
+        distance="7.2"
+        startTime="9:40"
       />
     </div>
   )
