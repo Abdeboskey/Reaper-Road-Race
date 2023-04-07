@@ -3,7 +3,12 @@ import H1 from 'components/markup/H1'
 import H2 from 'components/markup/H2'
 import P from 'components/markup/P'
 
+import instagram from 'assets/instagram-icon.svg'
+import facebook from 'assets/facebook-icon.svg'
+import strava from 'assets/strava-icon.svg'
+
 const Contact = () => {
+  const iconStyle = "h-8 m-3 drop-shadow-md"
 
   return (
     <Main>
@@ -25,6 +30,17 @@ const Contact = () => {
         message on any of our social media profiles and we'll get back to you
         as quickly as we can.
       </P>
+      <div className="flex justify-center items-center m-2"> 
+        <a href="https://www.instagram.com/reaperroadrace/" target="_blank">
+          <img className={iconStyle} src={instagram} alt="Instagram icon" />
+        </a>
+        <a href="https://www.facebook.com/reaperroadrace" target="_blank">
+          <img className={iconStyle} src={facebook} alt="Facebook icon" />
+        </a>
+        <a href="https://www.strava.com/clubs/1121972" target="_blank">
+          <img className={iconStyle} src={strava} alt="Strava icon" />
+        </a>
+      </div>
     </Main>
   )
 }
