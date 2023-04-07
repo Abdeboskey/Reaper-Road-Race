@@ -20,7 +20,7 @@ const CategoryCard = (props) => {
       <div className="p-2">
         <P center>{description}</P>
         <P center>{numLaps} {numLaps > 1 ? "laps" : "lap"} / {distance}mi</P>
-        <P center>Start Time: {startTime} AM</P>
+        <P center><b>Start Time: {startTime} AM</b></P>
       </div>
     </div>
   )
