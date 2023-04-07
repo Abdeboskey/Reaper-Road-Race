@@ -102,6 +102,12 @@ const RaceInfo = () => {
           </List>
         </div>
       </div>
+      <H3>Sunday Swamp Rabbit Social</H3>
+      <P center>
+        Stay in town on Sunday for a social skate on the scenic Swamp Rabbit
+        Trail. Exact details TBD.
+      </P>
+      <H3>⚠️</H3>
       <P center>
         Online registration will close on Thursday, June 8th, 2023 at 11:59pm
         EDT.
@@ -111,6 +117,7 @@ const RaceInfo = () => {
         from 8:00am - 9:00am and will cost an additional
         $10 per category.
       </P>
+      <H3>⚠️</H3>
       <CtaButton dark/>
       <H2 id="relay">Relay Info 🏁</H2>
       <P center>Team up with your friends to complete the Moreathon!</P>
