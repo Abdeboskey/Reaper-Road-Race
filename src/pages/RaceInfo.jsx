@@ -6,6 +6,7 @@ import List from 'components/markup/List'
 import Main from 'components/markup/Main'
 import CtaButton from 'components/CtaButton'
 import CategoryContainer from 'components/CategoryContainer'
+import AddressLink from 'components/AddressLink'
 
 const RaceInfo = () => {
   const aStyle = "text-orange-400 underline"
@@ -22,16 +23,8 @@ const RaceInfo = () => {
       <H2 id="course">Course Info 📍</H2>
       {/* <div className="strava-embed-placeholder h-20" data-embed-type="route" data-embed-id="3072288653653574332" data-full-width="true"></div> */}
       <iframe className="w-full aspect-[4/5] md:aspect-[4/4] lg:aspect-[4/3]" frameBorder="0" allowtransparency="true" scrolling="no" src="https://strava-embeds.com/route/3072288653653574332"></iframe>
-      <H3>Start/Finish/Parking</H3>
-      <P center> 
-        <a
-          className={aStyle}
-          href="https://www.google.com/maps/place/198+Perimeter+Rd,+Greenville,+SC+29605/@34.7585998,-82.3836133,17z/data=!3m1!4b1!4m5!3m4!1s0x88582529a634e101:0x7bc26727bda9d7d6!8m2!3d34.7585998!4d-82.3814246"
-          target="_blank"
-        >
-          198 Perimeter Rd, Greenville, SC 29605
-        </a>
-      </P>
+      <P center>Start/Finish/Parking:</P>
+      <AddressLink />
       <P>
         All divisions of the race will be held on a 7.2 mile clockwise loop.
         11.5K entrants will complete a single lap of the course, and the

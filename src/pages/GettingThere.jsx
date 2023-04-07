@@ -2,6 +2,7 @@ import Main from 'components/markup/Main'
 import H1 from 'components/markup/H1'
 import H2 from 'components/markup/H2'
 import P from 'components/markup/P'
+import AddressLink from 'components/AddressLink'
 
 const GettingThere = () => {
 
@@ -9,9 +10,7 @@ const GettingThere = () => {
     <Main>
       <H1>Getting There</H1>
       <H2>Event Location</H2>
-      <P center>
-        198 Perimeter Rd, Greenville, SC 29605
-      </P>
+      <AddressLink />
       <P>
         Use the above address to navigate to the event location. Parking,
         start/finish line, relay zone, on-site registration & packet pick-up,

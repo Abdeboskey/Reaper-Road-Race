@@ -6,6 +6,7 @@ import Main from 'components/markup/Main'
 import List from 'components/markup/List'
 import CtaButton from 'components/CtaButton'
 import CategoryContainer from 'components/CategoryContainer'
+import AddressLink from 'components/AddressLink'
 
 import fullLogo from 'assets/color_logo_full.svg'
 import heroBG from 'assets/skaters.jpg'
@@ -33,15 +34,7 @@ const Home = () => {
         <H3>
           Saturday, June 10th, 2023
         </H3>
-        <P center> 
-          <a
-            className={aStyle}
-            href="https://www.google.com/maps/place/198+Perimeter+Rd,+Greenville,+SC+29605/@34.7585998,-82.3836133,17z/data=!3m1!4b1!4m5!3m4!1s0x88582529a634e101:0x7bc26727bda9d7d6!8m2!3d34.7585998!4d-82.3814246"
-            target="_blank"
-          >
-            198 Perimeter Rd, Greenville, SC 29605
-          </a>
-        </P>
+        <AddressLink />
         <P center>
           Start your skates a'sizzlin at the first
           annual Carolina Reaper Road Race.
