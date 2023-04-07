@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import H1 from 'components/markup/H1'
 import H2 from 'components/markup/H2'
 import H3 from 'components/markup/H3'
@@ -33,6 +34,14 @@ const Home = () => {
         <H3>
           Saturday, June 10th, 2023
         </H3>
+        <div className="text-center">
+          <Link
+            className="text-orange-500 underline"
+            to="https://www.google.com/maps/place/198+Perimeter+Rd,+Greenville,+SC+29605/@34.7585998,-82.3836133,17z/data=!3m1!4b1!4m5!3m4!1s0x88582529a634e101:0x7bc26727bda9d7d6!8m2!3d34.7585998!4d-82.3814246"
+          >
+            198 Perimeter Rd, Greenville, SC 29605
+          </Link>
+        </div>
         <P center>
           Start your skates a'sizzlin at the first
           annual Carolina Reaper Road Race.
@@ -59,29 +68,32 @@ const Home = () => {
           - 9:00 AM for an additional $10 per category.
         </P>
         <H2>Categories</H2>
-        <H3>11.5K & Moreathon</H3>
-        <List>
-          {[
-            "Men's & Women's Overall Inline",
-            "Men's & Women's Overall Quad",
-            "Men's & Women's 12 & Under",
-            "Men's & Women's 13-18"
-          ]}
-        </List>
-        <H3>Moreathon Relay</H3>
-        <List>
-          {[
-            "Top 3 Overall Teams",
-          ]}
-        </List>
+        <div className="md:flex justify-around">
+          <div>
+            <H3>11.5K & Moreathon</H3>
+            <List>
+              {[
+                "Men's & Women's Overall Inline",
+                "Men's & Women's Overall Quad",
+                "Men's & Women's 12 & Under",
+                "Men's & Women's 13-18"
+              ]}
+            </List>
+          </div>
+          <div>
+            <H3>Moreathon Relay</H3>
+            <List>
+              {[
+                "Top 3 Overall Teams",
+                "Best Team Name",
+              ]}
+            </List>
+          </div>
+        </div>
         <P center>
           * Age categories are determined by age of participant on race day. *
         </P>
         <CtaButton dark/>
-        <P center>
-          Stay in town for a fun social skate on the scenic Swamp Rabbit Trail
-          on Sunday.
-        </P>
       </Main>
     </div>
   )
