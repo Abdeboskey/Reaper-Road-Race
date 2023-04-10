@@ -36,8 +36,10 @@ const Home = () => {
         </H3>
         <AddressLink />
         <P center>
-          Start your skates a'sizzlin at the first
-          annual Carolina Reaper Road Race.
+          Start your skates a'sizzlin at the first annual Carolina Reaper Road
+          Race in Greenville, SC on Saturday, June 10th, 2023. Read on for more
+          info about the race, the course, where to stay and what to do in
+          Greenville during the race weekend.
         </P>
         <H2>Distance Options</H2>
         <CategoryContainer />
