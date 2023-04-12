@@ -7,6 +7,7 @@ import Main from 'components/markup/Main'
 import Section from 'components/markup/Section'
 import CtaButton from 'components/CtaButton'
 import CategoryContainer from 'components/CategoryContainer'
+import SwampRabbitSocial from 'components/SwampRabbitSocial'
 import AddressLink from 'components/AddressLink'
 
 const RaceInfo = () => {
@@ -114,25 +115,25 @@ const RaceInfo = () => {
           </div>
         </Section>
         <Section>
-          <H3>Sunday Swamp Rabbit Social</H3>
-          <P center>
-            Stay in town on Sunday for a social skate on the scenic Swamp Rabbit
-            Trail. Exact details TBD.
-          </P>
-        </Section>
-        <Section>
           <H3>⚠️</H3>
           <P center>
-            Online registration will close on Thursday, June 8th, 2023 at 11:59pm
-            EDT.
+            <b>
+              Online registration will close on Thursday, June 8th, 2023 at 11:59pm
+              EDT.
+            </b>
           </P>
           <P center>
-            On-site registration will be available on Saturday, June 10th, 2023
-            from 8:00am - 9:00am and will cost an additional
-            $10 per category.
+            <b>
+              On-site registration will be available on Saturday, June 10th, 2023
+              from 8:00am - 9:00am and will cost an additional
+              $10 per category.
+            </b>
           </P>
           <H3>⚠️</H3>
           <CtaButton dark/>
+        </Section>
+        <Section>
+          <SwampRabbitSocial />
         </Section>
       </Section>
       <Section>

@@ -7,6 +7,7 @@ import Section from 'components/markup/Section'
 import List from 'components/markup/List'
 import CtaButton from 'components/CtaButton'
 import CategoryContainer from 'components/CategoryContainer'
+import SwampRabbitSocial from 'components/SwampRabbitSocial'
 import AddressLink from 'components/AddressLink'
 
 import fullLogo from 'assets/color_logo_full.svg'
@@ -48,6 +49,7 @@ const Home = () => {
           <H2>Distance Options</H2>
           <CategoryContainer />
           <CtaButton dark/>
+          <SwampRabbitSocial />
         </Section>
         <Section>
           <H2>Registration Fees</H2>
