@@ -3,7 +3,12 @@ const CtaButton = ({ dark }) => {
 
   return (
     <div className="text-center">
-      <a className={style} href="https://www.bikereg.com" target="_blank">
+      <a 
+        className={style}
+        href="https://www.bikereg.com/carolina-reaper-road-race"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         REGISTER NOW
       </a>
     </div>
