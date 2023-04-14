@@ -174,7 +174,7 @@ const RaceInfo = () => {
         <P center>The following categories will be recognized:</P>
         <div className="md:flex justify-around">
           <div>
-            <H3>11.5K & Moreathon</H3>
+            <H3>Moreathon & 11.5K</H3>
             <List>
               {[
                 "Men's & Women's Overall Inline",

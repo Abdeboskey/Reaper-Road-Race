@@ -82,7 +82,7 @@ const Home = () => {
           <H2>Categories</H2>
           <div className="md:flex justify-around">
             <div>
-              <H3>11.5K & Moreathon</H3>
+              <H3>Moreathon & 11.5K</H3>
               <List>
                 {[
                   "Men's & Women's Overall Inline",
