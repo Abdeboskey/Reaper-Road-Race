@@ -27,8 +27,8 @@ const RaceInfo = () => {
       </Section>
       <Section>
         <H2 id="course">Course Info 📍</H2>
-        {/* <div className="strava-embed-placeholder h-20" data-embed-type="route" data-embed-id="3072288653653574332" data-full-width="true"></div> */}
-        <iframe className="w-full aspect-[4/5] md:aspect-[4/4] lg:aspect-[4/3]" frameBorder="0" allowtransparency="true" scrolling="no" src="https://strava-embeds.com/route/3072288653653574332"></iframe>
+        {/* <div className="strava-embed-placeholder h-20" data-embed-type="route" data-embed-id="3081790995408919376" data-full-width="true"></div> */}
+        <iframe className="w-full aspect-[4/5] md:aspect-[4/4] lg:aspect-[4/3]" frameBorder="0" allowtransparency="true" scrolling="no" src="https://strava-embeds.com/route/3081790995408919376"></iframe>
         <P center>Start/Finish/Parking:</P>
         <AddressLink />
         <P>
