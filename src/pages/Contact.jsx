@@ -17,10 +17,10 @@ const Contact = () => {
         Do you have questions?
       </P>
       <P>
-        Are you interested in sponsoring our event?
+        Are you interested in sponsoring the Carolina Reaper Road Race?
       </P>
       <P>
-        Would you like to volunteer for the race?
+        Would you like to volunteer for the event?
       </P>
       <P>
         Would you like to learn more about Where Are We Skating?
