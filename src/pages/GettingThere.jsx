@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Main from 'components/markup/Main'
 import Section from 'components/markup/Section'
 import H1 from 'components/markup/H1'
@@ -66,6 +67,17 @@ const GettingThere = () => {
           // INSERT LOCAL PARTNERS //
         </P>
         <SwampRabbitSocial />
+        <P center>
+          Visit our{" "}
+          <Link 
+            className="text-orange-500 underline font-bold"
+            to="/contact"
+          >
+            Contact
+          </Link>
+          {" "} page if you have any additional questions about the Carolina
+          Reaper Road Race.
+        </P>
       </Section>
     </Main>
   )

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import H1 from 'components/markup/H1'
 import H2 from 'components/markup/H2'
 import H3 from 'components/markup/H3'
@@ -11,7 +12,7 @@ import SwampRabbitSocial from 'components/SwampRabbitSocial'
 import AddressLink from 'components/AddressLink'
 
 const RaceInfo = () => {
-  const aStyle = "text-orange-400 underline"
+  const aStyle = "text-orange-500 underline"
 
   return (
     <Main>
@@ -199,6 +200,17 @@ const RaceInfo = () => {
         </div>
         <P center>
           * Age categories are determined by age of participant on race day. *
+        </P>
+        <P center>
+          Visit{" "} 
+          <Link 
+            className="text-orange-500 underline font-bold"
+            to="/travel"
+          >
+            Getting There
+          </Link>
+          {" "}for more info on traveling to Greenville, where to stay, and
+          what to do during the event weekend.
         </P>
       </Section>
     </Main>

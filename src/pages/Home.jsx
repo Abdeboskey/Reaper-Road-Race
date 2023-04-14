@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import H1 from 'components/markup/H1'
 import H2 from 'components/markup/H2'
 import H3 from 'components/markup/H3'
@@ -105,6 +106,17 @@ const Home = () => {
             * Age categories are determined by age of participant on race day. *
           </P>
           <CtaButton dark/>
+          <P center>
+            Visit{" "}
+            <Link 
+              className="text-orange-500 underline font-bold"
+              to="/race-info"
+            >
+              Race Info
+            </Link>
+            {" "}to learn about the course, registration fees, event schedule,
+            and more.
+          </P>
         </Section>
       </Main>
     </div>
