@@ -8,7 +8,8 @@ import facebook from 'assets/facebook-icon.svg'
 import strava from 'assets/strava-icon.svg'
 
 const Contact = () => {
-  const iconStyle = "h-8 m-3 drop-shadow-md"
+  const iconStyle = "h-8 m-3 drop-shadow-md drop-shadow-lg"
+  const socialDivStyle = "flex justify-center items-center m-2 mx-auto"
 
   return (
     <Main>
@@ -26,11 +27,17 @@ const Contact = () => {
         Would you like to learn more about Where Are We Skating?
       </P>
       <P>
-        If so, please contact us at whereareweskating@gmail.com or send us a
-        message on any of our social media profiles and we'll get back to you
-        as quickly as we can.
+        If so, please contact us at{" "}
+        <a
+          className="text-orange-500 underline"
+          href="mailto:whereareweskating@gmail.com"
+        >
+          whereareweskating@gmail.com
+        </a>
+        {" "}or send us a message on any of our social media profiles and we'll get
+        back to you as quickly as we can.
       </P>
-      <div className="flex justify-center items-center m-2"> 
+      <div className={socialDivStyle}> 
         <a href="https://www.instagram.com/reaperroadrace/" target="_blank">
           <img className={iconStyle} src={instagram} alt="Instagram icon" />
         </a>
