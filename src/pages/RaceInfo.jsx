@@ -12,18 +12,25 @@ import SwampRabbitSocial from 'components/SwampRabbitSocial'
 import AddressLink from 'components/AddressLink'
 
 const RaceInfo = () => {
-  const linkStyle = "text-orange-500 underline"
+  const linkStyle = "w-fit text-orange-500 underline mx-auto my-3 cursor-pointer"
+
+  const handleClick = (id) => {
+    const element = document.getElementById(id)
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
 
   return (
     <Main>
       <Section>
       <H1>Race Info</H1>
         <P center>Here you can learn more about:</P>
-        <P center><a href="#course" className={linkStyle}>Course Info</a></P>
-        <P center><a href="#safety" className={linkStyle}>Safety Info</a></P>
-        <P center><a href="#options" className={linkStyle}>Event Options & Schedule</a></P>
-        <P center><a href="#relay" className={linkStyle}>Relay Info</a></P>
-        <P center><a href="#awards" className={linkStyle}>Awards</a></P>
+        <p className={linkStyle} onClick={() => handleClick("course")}>Course Info</p>
+        <p className={linkStyle} onClick={() => handleClick("safety")}>Safety Info</p>
+        <p className={linkStyle} onClick={() => handleClick("options")}>Event Options & Schedule</p>
+        <p className={linkStyle} onClick={() => handleClick("relay")}>Relay Info</p>
+        <p className={linkStyle} onClick={() => handleClick("awards")}>Awards</p>
       </Section>
       <Section>
         <H2 id="course">Course Info 📍</H2>
