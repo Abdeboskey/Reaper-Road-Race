@@ -67,12 +67,8 @@ const RaceInfo = () => {
             Helmets are required for all
             participants
           </span>
-          . Additional PPE (wrist guards, knee pads, and elbow pads) are
+          . Wrist guards, knee pads, and elbow pads are
           recommended for added personal safety.
-        </P>
-        <P>
-          Each event will be led out by a police squad car, with additional
-          roving course marshals on motorcycles.
         </P>
         <P>
           This is an open-road course with low to medium traffic. Skaters will
@@ -80,8 +76,8 @@ const RaceInfo = () => {
           safety of your fellow competitors.
         </P>
         <P>
-          Race numbers should be affixed to the right hip with the safety pins
-          provided in your registration packet.
+          Each event will be led out by a police escort, with additional
+          roving course marshals on motorcycles.
         </P>
       </Section>
       <Section>
