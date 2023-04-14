@@ -12,23 +12,30 @@ import SwampRabbitSocial from 'components/SwampRabbitSocial'
 import AddressLink from 'components/AddressLink'
 
 const RaceInfo = () => {
-  const aStyle = "text-orange-500 underline"
+  const linkStyle = "w-fit text-orange-500 underline mx-auto my-3 cursor-pointer"
+
+  const handleClick = (id) => {
+    const element = document.getElementById(id)
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
 
   return (
     <Main>
       <Section>
       <H1>Race Info</H1>
         <P center>Here you can learn more about:</P>
-        <P center><a href="#course" className={aStyle}>Course Info</a></P>
-        <P center><a href="#safety" className={aStyle}>Safety Info</a></P>
-        <P center><a href="#options" className={aStyle}>Event Options & Schedule</a></P>
-        <P center><a href="#relay" className={aStyle}>Relay Info</a></P>
-        <P center><a href="#awards" className={aStyle}>Awards</a></P>
+        <p className={linkStyle} onClick={() => handleClick("course")}>Course Info</p>
+        <p className={linkStyle} onClick={() => handleClick("safety")}>Safety Info</p>
+        <p className={linkStyle} onClick={() => handleClick("options")}>Event Options & Schedule</p>
+        <p className={linkStyle} onClick={() => handleClick("relay")}>Relay Info</p>
+        <p className={linkStyle} onClick={() => handleClick("awards")}>Awards</p>
       </Section>
       <Section>
         <H2 id="course">Course Info 📍</H2>
-        {/* <div className="strava-embed-placeholder h-20" data-embed-type="route" data-embed-id="3072288653653574332" data-full-width="true"></div> */}
-        <iframe className="w-full aspect-[4/5] md:aspect-[4/4] lg:aspect-[4/3]" frameBorder="0" allowtransparency="true" scrolling="no" src="https://strava-embeds.com/route/3072288653653574332"></iframe>
+        {/* <div className="strava-embed-placeholder h-20" data-embed-type="route" data-embed-id="3081790995408919376" data-full-width="true"></div> */}
+        <iframe className="w-full aspect-[4/5] md:aspect-[4/4] lg:aspect-[4/3]" frameBorder="0" allowtransparency="true" scrolling="no" src="https://strava-embeds.com/route/3081790995408919376"></iframe>
         <P center>Start/Finish/Parking:</P>
         <AddressLink />
         <P>
@@ -145,25 +152,10 @@ const RaceInfo = () => {
         </List>
         <P center>The registration fee for a relay team of any size is $140.</P>
         <P>
-          The team captain can register for the whole team, however each member
-          will need to sign a waiver.
+          For relay registration the team captain will need to register for the
+          whole team. Relay team members will recieve an email with a link to
+          fill out a waiver.
         </P>
-        <P center>- OR -</P>
-        <P>
-          The team captain can register first for the team, and then receive a
-          specific discount code to register the remainder of their team. Please
-          ensure to select the same team name for the remainder of your team.
-          Each team member will be prompted to sign a waiver.
-        </P>
-        <H3>Relay Zone</H3>
-        <P>
-          The relay zone will be marked by //INSERT MARKING HERE//. Skaters will
-          relay in the right-hand traveling lane on the final straight leading up
-          to the start/finish line. Relay skaters will need to use caution and
-          judgement to avoid stepping out in front of another skater, and must use
-          caution when exiting the course after a hand-off.
-        </P>
-        {/* Insert map of relay zone/3-lane area */}
       </Section>
       <Section>
         <H2 id="awards">Awards 🏅</H2>
@@ -174,7 +166,7 @@ const RaceInfo = () => {
         <P center>The following categories will be recognized:</P>
         <div className="md:flex justify-around">
           <div>
-            <H3>11.5K & Moreathon</H3>
+            <H3>Moreathon & 11.5K</H3>
             <List>
               {[
                 "Men's & Women's Overall Inline",
@@ -200,7 +192,7 @@ const RaceInfo = () => {
         <P center>
           Visit{" "} 
           <Link 
-            className="text-orange-500 underline font-bold"
+            className={linkStyle}
             to="/travel"
           >
             Getting There

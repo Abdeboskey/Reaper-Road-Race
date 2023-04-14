@@ -1,7 +1,7 @@
 import CategoryCard from 'components/CategoryCard'
 
 const CategoryContainer = () => {
-  const style = "relative md:flex shadow-lg rounded-xl p-2 my-4"
+  const style = "relative md:flex my-4"
   
   return (
     <div className={style}>

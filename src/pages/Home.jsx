@@ -15,6 +15,7 @@ import fullLogo from 'assets/color_logo_full.svg'
 import heroBG from 'assets/skaters.jpg'
 
 const Home = () => {
+  const linkStyle = "text-orange-500 underline"
 
   return (
     <div>
@@ -42,24 +43,43 @@ const Home = () => {
           <P center>
             Join Where Are We Skating’s inaugural event on Saturday June 10th,
             2023: the first annual Carolina Reaper Road Race in Greenville, SC.
-            Line up at the start with your friends in your inline skates or
-            roller skates, for an exciting and challenging race destined to become
-            a southern classic.
+            Whether you're a fan of inline skates, roller skates, skating solo,
+            or skating with your friends, this will be an exciting and
+            challenging race that's destined to become a southern classic.
           </P>
           <P center>
-            Read on for more info about the race, where to stay and what to do
-            in Greenville during the event weekend. Greenville's the place for
-            your new favorite race!
+            Read on for more info about{" "} 
+            <Link
+              className={linkStyle}
+              to="/race-info"
+            >
+              the race
+            </Link>
+            ,{" "}
+            <Link
+              className={linkStyle}
+              to="/travel"
+            >
+              travel & accomodations
+            </Link>
+            , and how to{" "}
+            <Link
+              className={linkStyle}
+              to="/contact"
+            >
+              contact us
+            </Link>
+            {" "}for any additional information.
           </P>
         </Section>
         <Section>
-          <H2>Distance Options</H2>
+          <H2>Distance Options ⏱️</H2>
           <CategoryContainer />
           <CtaButton dark/>
           <SwampRabbitSocial />
         </Section>
         <Section>
-          <H2>Registration Fees</H2>
+          <H2>Registration Fees 💸</H2>
           <List>
             {[
               "11.5K - $40",
@@ -79,10 +99,10 @@ const Home = () => {
           </P>
         </Section>
         <Section>
-          <H2>Categories</H2>
+          <H2>Categories 🏅</H2>
           <div className="md:flex justify-around">
             <div>
-              <H3>11.5K & Moreathon</H3>
+              <H3>Moreathon & 11.5K</H3>
               <List>
                 {[
                   "Men's & Women's Overall Inline",
@@ -109,7 +129,7 @@ const Home = () => {
           <P center>
             Visit{" "}
             <Link 
-              className="text-orange-500 underline font-bold"
+              className={linkStyle}
               to="/race-info"
             >
               Race Info
