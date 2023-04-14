@@ -73,13 +73,13 @@ const Home = () => {
           </P>
         </Section>
         <Section>
-          <H2>Distance Options</H2>
+          <H2>Distance Options ⏱️</H2>
           <CategoryContainer />
           <CtaButton dark/>
           <SwampRabbitSocial />
         </Section>
         <Section>
-          <H2>Registration Fees</H2>
+          <H2>Registration Fees 💸</H2>
           <List>
             {[
               "11.5K - $40",
@@ -99,7 +99,7 @@ const Home = () => {
           </P>
         </Section>
         <Section>
-          <H2>Categories</H2>
+          <H2>Categories 🏅</H2>
           <div className="md:flex justify-around">
             <div>
               <H3>Moreathon & 11.5K</H3>

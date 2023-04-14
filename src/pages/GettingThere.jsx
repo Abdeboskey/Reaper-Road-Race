@@ -16,7 +16,7 @@ const GettingThere = () => {
     <Main>
       <Section>
         <H1>Getting There</H1>
-        <H2>Event Location</H2>
+        <H2>Event Location 📍</H2>
         <img
           className="w-100 md:w-3/5 mx-auto my-4"
           src={siteMap}
@@ -35,7 +35,7 @@ const GettingThere = () => {
         </P>
       </Section>
       <Section>
-        <H2>Staying in Greenville</H2>
+        <H2>Staying in Greenville 🏨</H2>
         <H3>
           Hotel Suggestions
         </H3>
@@ -52,14 +52,14 @@ const GettingThere = () => {
         </P>
       </Section>
       <Section>
-        <H2>Flying to Greenville</H2>
+        <H2>Flying to Greenville ✈️</H2>
         <P>
           Fly in to the Greenville-Spartanburg International (GSP) airport. The
           airport is approximately 9 miles from WoodSpring Suites.
         </P>
       </Section>
       <Section>
-        <H2>Things to Do in Greenville</H2>
+        <H2>Things to Do in Greenville 🍔</H2>
         <P center>
           Check out our local partners:
         </P>
