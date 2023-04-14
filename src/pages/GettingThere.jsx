@@ -70,7 +70,7 @@ const GettingThere = () => {
         <P center>
           Visit our{" "}
           <Link 
-            className="text-orange-500 underline font-bold"
+            className="text-orange-500 underline"
             to="/contact"
           >
             Contact

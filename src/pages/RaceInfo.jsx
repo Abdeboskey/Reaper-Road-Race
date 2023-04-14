@@ -12,18 +12,18 @@ import SwampRabbitSocial from 'components/SwampRabbitSocial'
 import AddressLink from 'components/AddressLink'
 
 const RaceInfo = () => {
-  const aStyle = "text-orange-500 underline"
+  const linkStyle = "text-orange-500 underline"
 
   return (
     <Main>
       <Section>
       <H1>Race Info</H1>
         <P center>Here you can learn more about:</P>
-        <P center><a href="#course" className={aStyle}>Course Info</a></P>
-        <P center><a href="#safety" className={aStyle}>Safety Info</a></P>
-        <P center><a href="#options" className={aStyle}>Event Options & Schedule</a></P>
-        <P center><a href="#relay" className={aStyle}>Relay Info</a></P>
-        <P center><a href="#awards" className={aStyle}>Awards</a></P>
+        <P center><a href="#course" className={linkStyle}>Course Info</a></P>
+        <P center><a href="#safety" className={linkStyle}>Safety Info</a></P>
+        <P center><a href="#options" className={linkStyle}>Event Options & Schedule</a></P>
+        <P center><a href="#relay" className={linkStyle}>Relay Info</a></P>
+        <P center><a href="#awards" className={linkStyle}>Awards</a></P>
       </Section>
       <Section>
         <H2 id="course">Course Info 📍</H2>
@@ -200,7 +200,7 @@ const RaceInfo = () => {
         <P center>
           Visit{" "} 
           <Link 
-            className="text-orange-500 underline font-bold"
+            className={linkStyle}
             to="/travel"
           >
             Getting There
