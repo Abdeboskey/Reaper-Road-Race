@@ -145,25 +145,10 @@ const RaceInfo = () => {
         </List>
         <P center>The registration fee for a relay team of any size is $140.</P>
         <P>
-          The team captain can register for the whole team, however each member
-          will need to sign a waiver.
+          For relay registration the team captain will need to register for the
+          whole team. Relay team members will recieve an email with a link to
+          fill out a waiver.
         </P>
-        <P center>- OR -</P>
-        <P>
-          The team captain can register first for the team, and then receive a
-          specific discount code to register the remainder of their team. Please
-          ensure to select the same team name for the remainder of your team.
-          Each team member will be prompted to sign a waiver.
-        </P>
-        <H3>Relay Zone</H3>
-        <P>
-          The relay zone will be marked by //INSERT MARKING HERE//. Skaters will
-          relay in the right-hand traveling lane on the final straight leading up
-          to the start/finish line. Relay skaters will need to use caution and
-          judgement to avoid stepping out in front of another skater, and must use
-          caution when exiting the course after a hand-off.
-        </P>
-        {/* Insert map of relay zone/3-lane area */}
       </Section>
       <Section>
         <H2 id="awards">Awards 🏅</H2>
