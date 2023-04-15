@@ -1,3 +1,4 @@
+import { ScrollRestoration } from 'react-router-dom'
 import Main from 'components/markup/Main'
 import H1 from 'components/markup/H1'
 import H2 from 'components/markup/H2'
@@ -48,6 +49,7 @@ const Contact = () => {
           <img className={iconStyle} src={strava} alt="Strava icon" />
         </a>
       </div>
+      <ScrollRestoration />
     </Main>
   )
 }

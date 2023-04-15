@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, ScrollRestoration } from 'react-router-dom'
 import H1 from 'components/markup/H1'
 import H2 from 'components/markup/H2'
 import H3 from 'components/markup/H3'
@@ -201,6 +201,7 @@ const RaceInfo = () => {
           what to do during the event weekend.
         </P>
       </Section>
+      <ScrollRestoration />
     </Main>
   )
 }

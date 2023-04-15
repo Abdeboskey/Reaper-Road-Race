@@ -1,3 +1,4 @@
+import { ScrollRestoration } from 'react-router-dom'
 import Main from 'components/markup/Main'
 import Section from 'components/markup/Section'
 import H1 from 'components/markup/H1'
@@ -14,6 +15,7 @@ const Sponsors = () => {
           Thank you so much to our partners!
         </P>
       </Section>
+      <ScrollRestoration />
     </Main>
   )
 }
