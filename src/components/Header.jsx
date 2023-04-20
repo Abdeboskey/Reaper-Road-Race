@@ -34,7 +34,7 @@ const Header = () => {
   }, [lastScrollY])
 
   return (
-    <header className={`sticky ${showHeader ? 'top-0' : '-top-[500px]'} font-heading text-gray-100 transition-all duration-300 ease-in-out z-50`}>
+    <header className={`sticky ${showHeader ? 'top-0' : '-top-[500px]'} font-heading text-gray-100 transition-all duration-400 ease-in-out z-50`}>
       <nav className="flex items-center justify-between flex-wrap bg-gradient-to-r from-red-500 to-red-700 via-orange-400 p-3 pr-6">
         <div className="flex items-center flex-shrink-0 text-white sm:mr-12">
           <img className="h-20 mr-4" src={logo} alt="a white outline of a Carolina Reaper pepper in the shape of the race course" />
@@ -81,13 +81,15 @@ const Header = () => {
                 RESULTS
               </NavLink>
             */}
-            <NavLink 
-              to="/sponsors"
-              className={({ isActive }) => isActive ? linkStyle + activeLinkStyle : linkStyle}
-              onClick={() => setIsNavOpen(!isNavOpen)}
-            >
-              SPONSORS
-            </NavLink>
+            {/*
+                <NavLink 
+                  to="/sponsors"
+                  className={({ isActive }) => isActive ? linkStyle + activeLinkStyle : linkStyle}
+                  onClick={() => setIsNavOpen(!isNavOpen)}
+                >
+                  SPONSORS
+                </NavLink>
+            */}
             <NavLink 
               to="/contact"
               className={({ isActive }) => isActive ? linkStyle + activeLinkStyle : linkStyle}

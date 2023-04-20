@@ -11,6 +11,7 @@ import SwampRabbitSocial from 'components/SwampRabbitSocial'
 import siteMap from 'assets/site_map.png'
 
 const GettingThere = () => {
+  const linkStyle = "text-orange-500 underline"
 
   return (
     <Main>
@@ -35,31 +36,44 @@ const GettingThere = () => {
         </P>
       </Section>
       <Section>
+        <H2>Flying to Greenville ✈️</H2>
+        <P>
+          Fly in to the Greenville-Spartanburg International (GSP) airport.
+        </P>
+      </Section>
+      <Section>
         <H2>Staying in Greenville 🏨</H2>
         <H3>
           Hotel Suggestions
         </H3>
+        <P>
+          The hotels below are approximately 17 miles from the airport and 7.5
+          miles from the course. Friday night packet pickup will be held in the
+          conference room of the Holiday Inn Express from 7-9 pm.
+        </P>
         <P center>
           <a
-            className="text-orange-500 underline font-bold"
-            href="https://www.woodspring.com/extended-stay-hotels/locations/SC599?bchan=GOO&utm_source=GoogleHPA&utm_medium=referral&utm_campaign=VPTEXC&from=2023-03-14&to=1%2520days&iata=05631194&gal&mc=HAGOXXWS&meta=PMFGPADWSRACK_SC599_mapresults_US_1_desktop_2023-03-14_default___organic&gmp=MetaOrganic#rates"
+            className={linkStyle}
+            href="https://www.ihg.com/holidayinnexpress/hotels/us/en/piedmont/andpm/hoteldetail/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            WoodSpring Suites{" "} 
+            Holiday Inn Express
           </a>
-          - Starting at $[SomeNum].95 per night.
+        </P>
+        <P center>
+          <a
+            className={linkStyle}
+            href="https://www.choicehotels.com/south-carolina/piedmont/comfort-suites-hotels/sc362"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Comfort Suites
+          </a>
         </P>
       </Section>
       <Section>
-        <H2>Flying to Greenville ✈️</H2>
-        <P>
-          Fly in to the Greenville-Spartanburg International (GSP) airport. The
-          airport is approximately 9 miles from WoodSpring Suites.
-        </P>
-      </Section>
-      <Section>
-        <H2>Things to Do in Greenville 🍔</H2>
+        <H2>Things to Do in Greenville 🌶️</H2>
         <P center>
           Check out our local partners:
         </P>
@@ -67,10 +81,11 @@ const GettingThere = () => {
           // INSERT LOCAL PARTNERS //
         </P>
         <SwampRabbitSocial />
+        <div className="h-8" />
         <P center>
           Visit our{" "}
           <Link 
-            className="text-orange-500 underline"
+            className={linkStyle}
             to="/contact"
           >
             Contact

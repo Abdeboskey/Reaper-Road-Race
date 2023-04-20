@@ -58,10 +58,8 @@ const RaceInfo = () => {
           designated relay zone. The left lane will be used by all solo skaters, to
           provide room for the relay skaters to safely make baton hand offs in the
           main traveling lane. Solo skaters will merge back in to the main
-          traveling lane before crossing the start/finish line. (see diagram
-          below for more info on the relay zone).
+          traveling lane before crossing the start/finish line.
         </P>
-        {/* Insert relay-zone diagram here */}
       </Section>
       <Section>
         <H2 id="safety">Safety Info ⚠️</H2>
@@ -152,15 +150,15 @@ const RaceInfo = () => {
         </List>
         <P center>The registration fee for a relay team of any size is $140.</P>
         <P>
-          For relay registration the team captain will need to register for the
-          whole team. Relay team members will recieve an email with a link to
-          fill out a waiver.
+          The relay team captain will register all members of the relay team.
+          Once registered, all members will be sent an email with a link to
+          fill out the mandatory liability waiver.
         </P>
       </Section>
       <Section>
         <H2 id="awards">Awards 🏅</H2>
         <P>
-          Awards will be held at the conclusion of the event (at approximately
+          Awards will be held at the conclusion of the event (at
           12:30 PM). Skaters must be present to receive prizes.
         </P>
         <P center>The following categories will be recognized:</P>
