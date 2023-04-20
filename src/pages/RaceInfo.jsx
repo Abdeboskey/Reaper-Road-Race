@@ -152,9 +152,9 @@ const RaceInfo = () => {
         </List>
         <P center>The registration fee for a relay team of any size is $140.</P>
         <P>
-          For relay registration the team captain will need to register for the
-          whole team. Relay team members will recieve an email with a link to
-          fill out a waiver.
+          The relay team captain will register all members of the relay team.
+          Once registered, all members will be sent an email with a link to
+          fill out the mandatory liability waiver.
         </P>
       </Section>
       <Section>
