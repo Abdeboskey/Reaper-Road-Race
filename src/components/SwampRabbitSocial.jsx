@@ -10,7 +10,7 @@ const SwampRabbitSocial = () => {
       <H3>Sunday Swamp Rabbit Social Skate</H3>
       <P center>
         Stay in town on Sunday for a social skate on the scenic Swamp Rabbit
-        Trail. Meet up at{" "}
+        Trail. We will meet up at{" "}
         <a
           className={linkStyle}
           href="https://unityparkgreenville.com/1843/Unity-Park"
@@ -19,9 +19,9 @@ const SwampRabbitSocial = () => {
         >
           Unity Park
         </a>
-        {" "}at 9:30 am, and roll out at 10:00 am for a fun
-        out-and-back skate (mileage will be determined by the appetite of those
-        who show up!). We'll meet back at the start afterwards for lunch
+        {" "}starting at 9:30 am, and will roll out at 10:00 am for a fun
+        out-and-back skate. Mileage will range from 5-20 depending on who shows
+        up. We will meet back at the start afterwards for lunch
         and some good ol' fashioned socializing.
       </P>
     </div>
