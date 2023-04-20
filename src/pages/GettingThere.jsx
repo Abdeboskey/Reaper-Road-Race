@@ -59,7 +59,7 @@ const GettingThere = () => {
         </P>
       </Section>
       <Section>
-        <H2>Things to Do in Greenville 🍔</H2>
+        <H2>Things to Do in Greenville 🌶️</H2>
         <P center>
           Check out our local partners:
         </P>
@@ -67,6 +67,7 @@ const GettingThere = () => {
           // INSERT LOCAL PARTNERS //
         </P>
         <SwampRabbitSocial />
+        <div className="h-8" />
         <P center>
           Visit our{" "}
           <Link 
