@@ -58,10 +58,8 @@ const RaceInfo = () => {
           designated relay zone. The left lane will be used by all solo skaters, to
           provide room for the relay skaters to safely make baton hand offs in the
           main traveling lane. Solo skaters will merge back in to the main
-          traveling lane before crossing the start/finish line. (see diagram
-          below for more info on the relay zone).
+          traveling lane before crossing the start/finish line.
         </P>
-        {/* Insert relay-zone diagram here */}
       </Section>
       <Section>
         <H2 id="safety">Safety Info ⚠️</H2>
