@@ -160,7 +160,7 @@ const RaceInfo = () => {
       <Section>
         <H2 id="awards">Awards 🏅</H2>
         <P>
-          Awards will be held at the conclusion of the event (at approximately
+          Awards will be held at the conclusion of the event (at
           12:30 PM). Skaters must be present to receive prizes.
         </P>
         <P center>The following categories will be recognized:</P>
