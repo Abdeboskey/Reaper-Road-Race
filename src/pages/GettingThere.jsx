@@ -37,7 +37,7 @@ const GettingThere = () => {
       </Section>
       <Section>
         <H2>Flying to Greenville ✈️</H2>
-        <P>
+        <P center>
           Fly in to the Greenville-Spartanburg International (GSP) airport.
         </P>
       </Section>
@@ -46,20 +46,9 @@ const GettingThere = () => {
         <H3>
           Hotel Suggestions
         </H3>
-        <P>
-          The hotels below are approximately 17 miles from the airport and 7.5
-          miles from the course. Friday night packet pickup will be held in the
-          conference room of the Holiday Inn Express from 7-9 pm.
-        </P>
         <P center>
-          <a
-            className={linkStyle}
-            href="https://www.ihg.com/holidayinnexpress/hotels/us/en/piedmont/andpm/hoteldetail/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Holiday Inn Express
-          </a>
+          The hotels below are approximately 17 miles from the airport and 7.5
+          miles from the course.
         </P>
         <P center>
           <a
@@ -71,15 +60,19 @@ const GettingThere = () => {
             Comfort Suites
           </a>
         </P>
+        <P center>
+          <a
+            className={linkStyle}
+            href="https://www.ihg.com/holidayinnexpress/hotels/us/en/piedmont/andpm/hoteldetail/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Holiday Inn Express
+          </a>
+        </P>
       </Section>
       <Section>
-        <H2>Things to Do in Greenville 🌶️</H2>
-        <P center>
-          Check out our local partners:
-        </P>
-        <P center>
-          // INSERT LOCAL PARTNERS //
-        </P>
+        <H2>Sunday Social Skate 🐇</H2>
         <SwampRabbitSocial />
         <div className="h-8" />
         <P center>

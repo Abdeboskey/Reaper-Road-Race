@@ -27,14 +27,13 @@ const RaceInfo = () => {
       <H1>Race Info</H1>
         <P center>Here you can learn more about:</P>
         <p className={linkStyle} onClick={() => handleClick("course")}>Course Info</p>
-        <p className={linkStyle} onClick={() => handleClick("safety")}>Safety Info</p>
         <p className={linkStyle} onClick={() => handleClick("options")}>Event Options & Schedule</p>
         <p className={linkStyle} onClick={() => handleClick("relay")}>Relay Info</p>
         <p className={linkStyle} onClick={() => handleClick("awards")}>Awards</p>
+        <p className={linkStyle} onClick={() => handleClick("safety")}>Safety Info</p>
       </Section>
       <Section>
         <H2 id="course">Course Info 📍</H2>
-        {/* <div className="strava-embed-placeholder h-20" data-embed-type="route" data-embed-id="3081790995408919376" data-full-width="true"></div> */}
         <iframe className="w-full aspect-[4/5] md:aspect-[4/4] lg:aspect-[4/3]" frameBorder="0" allowtransparency="true" scrolling="no" src="https://strava-embeds.com/route/3081790995408919376"></iframe>
         <P center>Start/Finish/Parking:</P>
         <AddressLink />
@@ -62,30 +61,6 @@ const RaceInfo = () => {
         </P>
       </Section>
       <Section>
-        <H2 id="safety">Safety Info ⚠️</H2>
-        <P>
-          All skaters must attend the mandatory safety briefing at 9:20am, 10 minutes before
-          the Moreathon start.
-        </P>
-        <P>
-          <span className="font-bold">
-            Helmets are required for all
-            participants
-          </span>
-          . Wrist guards, knee pads, and elbow pads are
-          recommended for added personal safety.
-        </P>
-        <P>
-          This is an open-road course with low to medium traffic. Skaters will
-          need to exercise awareness, and prioritize your safety and the
-          safety of your fellow competitors.
-        </P>
-        <P>
-          Each event will be led out by a police escort, with additional
-          roving course marshals on motorcycles.
-        </P>
-      </Section>
-      <Section>
         <H2 id="options">Event Options & Schedule ⏱️</H2>
         <CategoryContainer />
         <Section>
@@ -94,12 +69,12 @@ const RaceInfo = () => {
               <H3>Event Schedule</H3>
               <List>
                 {[
-                  "8:00am - On-site registration and packet pick-up opens",
-                  "9:00am - On-site registration closes",
-                  "9:15am - On-site packet pick-up closes",
-                  "9:30am - Moreathon & Relay races begin",
-                  "9:40am - 11.5K race begins",
-                  "12:30pm - Awards Ceremony",
+                  "8:00 am - On-site registration and packet pick-up opens",
+                  "9:00 am - On-site registration closes",
+                  "9:15 am - On-site packet pick-up closes",
+                  "9:30 am - Moreathon & Relay races begin",
+                  "9:40 am - 11.5K race begins",
+                  "1:30 pm - Awards Ceremony",
                 ]}
               </List>
             </div>
@@ -120,14 +95,14 @@ const RaceInfo = () => {
           <H3>⚠️</H3>
           <P center>
             <b>
-              Online registration will close on Thursday, June 8th, 2023 at 11:59pm
+              Online registration will close on Thursday, June 8th, 2023 at 11:59 pm
               EDT.
             </b>
           </P>
           <P center>
             <b>
               On-site registration will be available on Saturday, June 10th, 2023
-              from 8:00am - 9:00am and will cost an additional
+              from 8:00 am - 9:00 am and will cost an additional
               $10 per category.
             </b>
           </P>
@@ -159,7 +134,7 @@ const RaceInfo = () => {
         <H2 id="awards">Awards 🏅</H2>
         <P>
           Awards will be held at the conclusion of the event (at
-          12:30 PM). Skaters must be present to receive prizes.
+          1:30 pm). Skaters must be present to receive prizes.
         </P>
         <P center>The following categories will be recognized:</P>
         <div className="md:flex justify-around">
@@ -187,6 +162,31 @@ const RaceInfo = () => {
         <P center>
           * Age categories are determined by age of participant on race day. *
         </P>
+      </Section>
+      <Section>
+        <H2 id="safety">Safety Info ⚠️</H2>
+        <P>
+          All skaters must attend the mandatory safety briefing at 9:20 am, 10 minutes before
+          the Moreathon start.
+        </P>
+        <P>
+          <span className="font-bold">
+            Helmets are required for all
+            participants
+          </span>
+          . Wrist guards, knee pads, and elbow pads are
+          recommended for added personal safety.
+        </P>
+        <P>
+          This is an open-road course with low to medium traffic. Skaters will
+          need to exercise awareness, and prioritize your safety and the
+          safety of your fellow competitors.
+        </P>
+        <P>
+          Each event will be led out by a police escort, with additional
+          roving course marshals on motorcycles.
+        </P>
+        <div className="pt-10"/>
         <P center>
           Visit{" "} 
           <Link 
@@ -195,8 +195,7 @@ const RaceInfo = () => {
           >
             Getting There
           </Link>
-          {" "}for more info on traveling to Greenville, where to stay, and
-          what to do during the event weekend.
+          {" "}for more info on traveling and accommodations during the event weekend.
         </P>
       </Section>
       <ScrollRestoration />
