@@ -9,8 +9,8 @@ import facebook from 'assets/facebook-icon.svg'
 import strava from 'assets/strava-icon.svg'
 
 const Contact = () => {
-  const iconStyle = "h-8 m-3 drop-shadow-md drop-shadow-lg"
-  const socialDivStyle = "flex justify-center items-center m-2 mx-auto"
+  const iconStyle = "h-8 m-3"
+  const socialDivStyle = "flex justify-center items-center bg-orange-400 rounded-xl w-fit drop-shadow-lg px-2 m-2 mx-auto"
 
   return (
     <Main>
