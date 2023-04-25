@@ -99,7 +99,7 @@ const RaceInfo = () => {
                   "9:15am - On-site packet pick-up closes",
                   "9:30am - Moreathon & Relay races begin",
                   "9:40am - 11.5K race begins",
-                  "12:30pm - Awards Ceremony",
+                  "1:30pm - Awards Ceremony",
                 ]}
               </List>
             </div>
@@ -159,7 +159,7 @@ const RaceInfo = () => {
         <H2 id="awards">Awards 🏅</H2>
         <P>
           Awards will be held at the conclusion of the event (at
-          12:30 PM). Skaters must be present to receive prizes.
+          1:30 PM). Skaters must be present to receive prizes.
         </P>
         <P center>The following categories will be recognized:</P>
         <div className="md:flex justify-around">
