@@ -48,18 +48,7 @@ const GettingThere = () => {
         </H3>
         <P>
           The hotels below are approximately 17 miles from the airport and 7.5
-          miles from the course. Friday night packet pickup will be held in the
-          conference room of the Holiday Inn Express from 7-9 pm.
-        </P>
-        <P center>
-          <a
-            className={linkStyle}
-            href="https://www.ihg.com/holidayinnexpress/hotels/us/en/piedmont/andpm/hoteldetail/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Holiday Inn Express
-          </a>
+          miles from the course.
         </P>
         <P center>
           <a
@@ -69,6 +58,16 @@ const GettingThere = () => {
             rel="noopener noreferrer"
           >
             Comfort Suites
+          </a>
+        </P>
+        <P center>
+          <a
+            className={linkStyle}
+            href="https://www.ihg.com/holidayinnexpress/hotels/us/en/piedmont/andpm/hoteldetail/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Holiday Inn Express
           </a>
         </P>
       </Section>
