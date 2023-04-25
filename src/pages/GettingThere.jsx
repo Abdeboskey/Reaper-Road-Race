@@ -72,7 +72,7 @@ const GettingThere = () => {
         </P>
       </Section>
       <Section>
-        <H2>Things to Do in Greenville 🌶️</H2>
+        <H2>Sunday Social Skate 🐇</H2>
         <SwampRabbitSocial />
         <div className="h-8" />
         <P center>
