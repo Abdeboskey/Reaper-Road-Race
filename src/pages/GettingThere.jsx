@@ -37,7 +37,7 @@ const GettingThere = () => {
       </Section>
       <Section>
         <H2>Flying to Greenville ✈️</H2>
-        <P>
+        <P center>
           Fly in to the Greenville-Spartanburg International (GSP) airport.
         </P>
       </Section>
@@ -46,7 +46,7 @@ const GettingThere = () => {
         <H3>
           Hotel Suggestions
         </H3>
-        <P>
+        <P center>
           The hotels below are approximately 17 miles from the airport and 7.5
           miles from the course.
         </P>

@@ -60,7 +60,7 @@ const Home = () => {
               className={linkStyle}
               to="/travel"
             >
-              travel & accomodations
+              travel & accommodations
             </Link>
             , and how to{" "}
             <Link
