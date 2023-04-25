@@ -71,12 +71,13 @@ const Home = () => {
             </Link>
             {" "}for any additional information.
           </P>
+          <CtaButton dark />
         </Section>
         <Section>
           <H2>Distance Options ⏱️</H2>
           <CategoryContainer />
-          <CtaButton dark/>
           <SwampRabbitSocial />
+          <CtaButton dark/>
         </Section>
         <Section>
           <H2>Registration Fees 💸</H2>
