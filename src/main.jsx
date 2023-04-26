@@ -14,6 +14,7 @@ import GettingThere from 'pages/GettingThere'
 import Sponsors from 'pages/Sponsors'
 import Results from 'pages/Results'
 import Contact from 'pages/Contact'
+import About from 'pages/About'
 
 import './index.css'
 
@@ -26,6 +27,7 @@ const router = createBrowserRouter(
       <Route path="results" element={<Results />} />
       <Route path="sponsors" element={<Sponsors />} />
       <Route path="contact" element={<Contact />} />
+      <Route path="about" element={<About />} />
     </Route>
   )
 )
