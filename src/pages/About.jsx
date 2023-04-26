@@ -1,3 +1,4 @@
+import { ScrollRestoration } from 'react-router-dom'
 import H1 from 'components/markup/H1'
 import P from 'components/markup/P'
 import Main from 'components/markup/Main'
@@ -53,6 +54,7 @@ const About = () => {
         Thank you for joining us on this journey - we look forward to seeing
         you at the start line on June 10th in Greenville!
       </P>
+      <ScrollRestoration />
     </Main>
   )
 }
