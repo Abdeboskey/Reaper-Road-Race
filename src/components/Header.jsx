@@ -91,6 +91,13 @@ const Header = () => {
                 </NavLink>
             */}
             <NavLink 
+              to="/about"
+              className={({ isActive }) => isActive ? linkStyle + activeLinkStyle : linkStyle}
+              onClick={() => setIsNavOpen(!isNavOpen)}
+            >
+              ABOUT
+            </NavLink>
+            <NavLink 
               to="/contact"
               className={({ isActive }) => isActive ? linkStyle + activeLinkStyle : linkStyle}
               onClick={() => setIsNavOpen(!isNavOpen)}

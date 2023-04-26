@@ -41,11 +41,18 @@ const Home = () => {
           </H3>
           <AddressLink />
           <P center>
-            Join Where Are We Skating’s inaugural event on Saturday June 10th,
-            2023: the first annual Carolina Reaper Road Race in Greenville, SC.
-            Whether you're a fan of inline skates, roller skates, skating solo,
-            or skating with your friends, this will be an exciting and
-            challenging race that's destined to become a southern classic.
+            Join{" "}
+            <Link
+              className={linkStyle}
+              to="/about"
+            >
+              Where Are We Skating
+            </Link>
+            ’s inaugural event on Saturday June 10th, 2023: the first annual
+            Carolina Reaper Road Race in Greenville, SC.  Whether you're a fan
+            of inline skates, roller skates, skating solo, or skating with your
+            friends, this will be an exciting and challenging race that's
+            destined to become a southern classic.
           </P>
           <P center>
             Read on for more info about{" "} 
