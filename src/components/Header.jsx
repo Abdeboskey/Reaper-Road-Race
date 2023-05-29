@@ -81,15 +81,13 @@ const Header = () => {
                 RESULTS
               </NavLink>
             */}
-            {/*
-                <NavLink 
-                  to="/sponsors"
-                  className={({ isActive }) => isActive ? linkStyle + activeLinkStyle : linkStyle}
-                  onClick={() => setIsNavOpen(!isNavOpen)}
-                >
-                  SPONSORS
-                </NavLink>
-            */}
+            <NavLink 
+              to="/sponsors"
+              className={({ isActive }) => isActive ? linkStyle + activeLinkStyle : linkStyle}
+              onClick={() => setIsNavOpen(!isNavOpen)}
+            >
+              SPONSORS
+            </NavLink>
             <NavLink 
               to="/about"
               className={({ isActive }) => isActive ? linkStyle + activeLinkStyle : linkStyle}
