@@ -103,7 +103,7 @@ const Home = () => {
           </P>
           <P>
             On-Site registration will be available on June 10, 2023, from 8:00 AM
-            - 9:00 AM for an additional $10 per category.
+            - 9:00 AM.
           </P>
         </Section>
         <Section>
