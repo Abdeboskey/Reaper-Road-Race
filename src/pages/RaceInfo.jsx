@@ -73,13 +73,13 @@ const RaceInfo = () => {
                   "9:00 am - On-site registration closes",
                   "9:15 am - On-site packet pick-up closes",
                   "9:30 am - Moreathon & Relay races begin",
-                  "9:40 am - 11.5K race begins",
+                  "9:45 am - 11.5K race begins",
                   "1:30 pm - Awards Ceremony",
                 ]}
               </List>
             </div>
             <div>
-              <H3>Pre-Registration Fees</H3>
+              <H3>Registration Fees</H3>
               <List>
                 {[
                   "11.5K - $40",
@@ -87,7 +87,6 @@ const RaceInfo = () => {
                   "Moreathon Relay Team - $140",
                 ]}
               </List>
-              <P center>On-site registration fees will cost an additional $10 per category.</P>
             </div>
           </div>
         </Section>
@@ -102,8 +101,7 @@ const RaceInfo = () => {
           <P center>
             <b>
               On-site registration will be available on Saturday, June 10th, 2023
-              from 8:00 am - 9:00 am and will cost an additional
-              $10 per category.
+              from 8:00 am - 9:00 am.
             </b>
           </P>
           <H3>⚠️</H3>

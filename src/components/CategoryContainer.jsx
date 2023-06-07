@@ -24,7 +24,7 @@ const CategoryContainer = () => {
         description="Cheer for the Moreathon skaters, then chase 'em down in this single lap race."
         numLaps="1"
         distance="7.2"
-        startTime="9:40"
+        startTime="9:45"
       />
     </div>
   )
