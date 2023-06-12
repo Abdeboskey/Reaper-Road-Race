@@ -5,7 +5,7 @@ const CtaButton = ({ dark }) => {
     <div className="text-center">
       <a 
         className={style}
-        href="https://www.bikereg.com/carolina-reaper-road-race"
+        href="https://www.bikereg.com/carolina-reaper-road-race-2024"
         target="_blank"
         rel="noopener noreferrer"
       >
