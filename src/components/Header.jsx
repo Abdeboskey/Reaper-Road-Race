@@ -72,15 +72,13 @@ const Header = () => {
             >
               GETTING THERE
             </NavLink>
-            {/*
-              <NavLink 
-                to="/results"
-                className={({ isActive }) => isActive ? linkStyle + activeLinkStyle : linkStyle}
-                onClick={() => setIsNavOpen(!isNavOpen)}
-              >
-                RESULTS
-              </NavLink>
-            */}
+            <NavLink 
+              to="/results"
+              className={({ isActive }) => isActive ? linkStyle + activeLinkStyle : linkStyle}
+              onClick={() => setIsNavOpen(!isNavOpen)}
+            >
+              RESULTS
+            </NavLink>
             <NavLink 
               to="/sponsors"
               className={({ isActive }) => isActive ? linkStyle + activeLinkStyle : linkStyle}
