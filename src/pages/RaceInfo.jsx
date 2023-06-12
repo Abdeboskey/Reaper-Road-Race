@@ -94,13 +94,13 @@ const RaceInfo = () => {
           <H3>⚠️</H3>
           <P center>
             <b>
-              Online registration will close on Thursday, June 8th, 2023 at 11:59 pm
+              Online registration will close on Thursday, May 16th, 2024 at 11:59 pm
               EDT.
             </b>
           </P>
           <P center>
             <b>
-              On-site registration will be available on Saturday, June 10th, 2023
+              On-site registration will be available on Saturday, May 18th, 2024
               from 8:00 am - 9:00 am.
             </b>
           </P>

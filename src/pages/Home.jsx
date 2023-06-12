@@ -11,7 +11,7 @@ import CategoryContainer from 'components/CategoryContainer'
 import SwampRabbitSocial from 'components/SwampRabbitSocial'
 import AddressLink from 'components/AddressLink'
 
-import fullLogo from 'assets/color_logo_full.svg'
+import heroLogo from 'assets/hero_logo_2024.svg'
 import heroBG from 'assets/skaters.jpg'
 
 const Home = () => {
@@ -27,17 +27,17 @@ const Home = () => {
         />
         <img
           className="absolute inset-x-1/2 -translate-x-1/2 inset-y-1/2 -translate-y-1/2 w-11/12 md:w-1/2"
-          src={fullLogo}
+          src={heroLogo}
           alt="Carolina Reaper Road Race Logo"
         />
       </div>
       <Main>
         <Section>
           <H1>
-            The first skating race in Greenville, SC
+            Inline & Quad skating race in Greenville, SC
           </H1>
           <H3>
-            Saturday, June 10th, 2023
+            Saturday, May 18th, 2024
           </H3>
           <AddressLink />
           <P center>
@@ -48,11 +48,11 @@ const Home = () => {
             >
               Where Are We Skating
             </Link>
-            ’s inaugural event on Saturday June 10th, 2023: the first annual
-            Carolina Reaper Road Race in Greenville, SC.  Whether you're a fan
-            of inline skates, roller skates, skating solo, or skating with your
-            friends, this will be an exciting and challenging race that's
-            destined to become a southern classic.
+            {" "}on Saturday, May 18th, 2024 for the second annual Carolina
+            Reaper Road Race in Greenville, SC.  Whether you're a fan of inline
+            skates, roller skates, skating solo, or skating with your friends,
+            this is an exciting and challenging road race that's destined to
+            become a southern classic.
           </P>
           <P center>
             Read on for more info about{" "} 
@@ -96,13 +96,13 @@ const Home = () => {
             ]}
           </List>
           <P>
-            Pre-Register by May 26, 2023 to guarantee your t-shirt size.
+            Pre-Register by May 3rd, 2024 to guarantee your t-shirt size.
           </P>
           <P>
-            Online Registration closes on June 8, 2023.
+            Online Registration closes on May 16th, 2024.
           </P>
           <P>
-            On-Site registration will be available on June 10, 2023, from 8:00 AM
+            On-Site registration will be available on May 18th, 2024, from 8:00 AM
             - 9:00 AM.
           </P>
         </Section>
