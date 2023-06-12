@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react'
 import { ScrollRestoration } from 'react-router-dom'
 
 import Main from 'components/markup/Main'
@@ -8,155 +7,94 @@ import H2 from 'components/markup/H2'
 import H3 from 'components/markup/H3'
 import P from 'components/markup/P'
 
-import rawData from 'assets/csvjson.json'
+import MoreathonOverall from 'assets/results/MoreathonOverall.json'
+import RelayOverall from 'assets/results/RelayOverall.json'
+import SingleLapOverall from 'assets/results/SingleLapOverall.json'
+import MoreathonWomenOverall from 'assets/results/MoreathonWomenOverall.json'
+import MoreathonMenOverall from 'assets/results/MoreathonMenOverall.json'
+import MoreathonInlineWomen from 'assets/results/MoreathonInlineWomen.json'
+import MoreathonInlineMen from 'assets/results/MoreathonInlineMen.json'
+import MoreathonQuadWomen from 'assets/results/MoreathonQuadWomen.json'
+import SingleLapWomenOverall from 'assets/results/SingleLapWomenOverall.json'
+import SingleLapMenOverall from 'assets/results/SingleLapMenOverall.json'
+import SingleLapInlineWomen from 'assets/results/SingleLapInlineWomen.json'
+import SingleLapInlineMen from 'assets/results/SingleLapInlineMen.json'
+import SingleLapQuadWomen from 'assets/results/SingleLapQuadWomen.json'
+import SingleLapQuadMen from 'assets/results/SingleLapQuadMen.json'
 
 const Results = () => {
-  const [categoryData, setCategoryData] = useState()
-  const [overallCategories, setOverallCategories] = useState()
-  const [tableRows, setTableRows] = useState([])
-  const [values, setValues] = useState([])
+  const tableRowStyle = "border border-gray-100 text-center p-1"
 
-  const tableRowStyle = "border-2 border-gray-100 text-center p-1"
-
-  useEffect(() => {
+  const createTable = (data) => {
     const rowsArray = []
     const valuesArray = []
 
-   rawData.forEach((d) => {
-      rowsArray.push(Object.keys(d))
-      valuesArray.push(Object.values(d))
+    data.map((d) => {
+      rowsArray.push(Object.keys(d));
+      valuesArray.push(Object.values(d));
     })
 
-    setOverallCategories(getOverallCategories())
-    setCategoryData(getOrganizedCategories())
-    setTableRows(rowsArray[0])
-    setValues(valuesArray)
-  }, [rawData])
-
-  const getOverallCategories = () => {
-    const overall = {
-      "Moreathon Overall": [],
-      "Moreathon Men's Overall": [],
-      "Moreathon Women's Overall": [],
-      "11.5 K Overall": [],
-      "11.5 K Men's Overall": [],
-      "11.5 K Women's Overall": [],
-    }
-     
-    rawData.forEach((skater) => {
-      if (skater['Race Type'] == 'Moreathon' && skater.Sex == 'Men') {
-        overall["Moreathon Overall"].push(skater)
-        overall["Moreathon Men's Overall"].push(skater)
-      }
-
-      if (skater['Race Type'] == 'Moreathon' && skater.Sex == 'Women') {
-        overall["Moreathon Overall"].push(skater)
-        overall["Moreathon Women's Overall"].push(skater)
-      }
-      
-      if (skater['Race Type'] == '11.5 K' && skater.Sex == 'Men') {
-        overall["11.5 K Overall"].push(skater)
-        overall["11.5 K Men's Overall"].push(skater)
-      }
-
-      if (skater['Race Type'] == '11.5 K' && skater.Sex == 'Women') {
-        overall["11.5 K Overall"].push(skater)
-        overall["11.5 K Women's Overall"].push(skater)
-      }
-    })
-
-    return overall
-  }
-
-  const getOrganizedCategories = () => {
-    const organized = rawData.reduce((acc, skater) => {
-      const key = skater['Race Type'] + " " + skater.Sex + "'s " + skater['Athlete Type']  
-      
-      if (!acc[key]) {
-        acc[key] = [skater]
-      } else {
-        acc[key].push(skater)
-      }
-      
-      return acc
-    }, {})
-
-    return organized
-  }
-
-  const createTables = (data) => {
-    const categoryNames = Object.keys(data)
-    const tableColumns = ['Name', 'Age', 'Team', 'City/State']  
-
-    return categoryNames.map((categoryName, index) => {
-
-      return (
-        <div key={index}>
-          <H3>{categoryName}</H3>
-          <div className="bg-gradient-to-b from-orange-300 rounded-lg my-8">
-            <table className="w-full text-black text-base table-auto">
-              <thead>
-                <tr>
-                  {tableColumns.map((rows, index) => {
-                    return <th className="p-3" key={index}>{rows}</th>
+    return (
+      <div className="bg-gradient-to-b from-orange-300 rounded-lg overflow-auto my-8">
+        <table className="w-full text-black text-xs table-auto">
+          <thead>
+            <tr>
+              {rowsArray[0].map((rows, index) => {
+                return <th className="p-3" key={index}>{rows}</th>
+              })}
+            </tr>
+          </thead>
+          <tbody>
+            {valuesArray.map((value, index) => {
+              return (
+                <tr key={index}>
+                  {value.map((val, i) => {
+                    return <td key={i} className={tableRowStyle}>{val}</td>;
                   })}
                 </tr>
-              </thead>
-              <tbody>
-                {data[categoryName].map((skater, index) => {
-                  return (
-                    <tr key={index}>
-                      <td className={tableRowStyle}>{skater['First Name'] + " " + skater['Last Name']}</td>
-                      <td className={tableRowStyle}>{skater['Age']}</td>
-                      <td className={tableRowStyle}>{skater['Team']}</td>
-                      <td className={tableRowStyle}>{skater['City'] + ", " + skater['State']}</td>
-                    </tr>
-                  )
-                })}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      )
-    })
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    )
   }
 
   return (
     <Main>
-      {console.log('the stuff',categoryData)}
-      {console.log('more stuff',overallCategories)}
-      <Section>
         <H1>2023 Results</H1>
-        {categoryData && createTables(categoryData)}
-        {overallCategories && createTables(overallCategories)}
-      </Section>
+        <P center>Congratulations to all of our 2023 Skaters!</P>
+        <H3>Moreathon Overall</H3>
+        {createTable(MoreathonOverall)}
+        <H3>Relay Overall</H3>
+        {createTable(RelayOverall)}
+        <H3>11.5K Overall</H3>
+        {createTable(SingleLapOverall)}
+        <H3>Moreathon Women Overall</H3>
+        {createTable(MoreathonWomenOverall)}
+        <H3>Moreathon Men Overall</H3>
+        {createTable(MoreathonMenOverall)}
+        <H3>Moreathon Inline Women</H3>
+        {createTable(MoreathonInlineWomen)}
+        <H3>Moreathon Inline Men</H3>
+        {createTable(MoreathonInlineMen)}
+        <H3>Moreathon Quad Women</H3>
+        {createTable(MoreathonQuadWomen)}
+        <H3>11.5K Women Overall</H3>
+        {createTable(SingleLapWomenOverall)}
+        <H3>11.5K Men Overall</H3>
+        {createTable(SingleLapMenOverall)}
+        <H3>11.5K Inline Women</H3>
+        {createTable(SingleLapInlineWomen)}
+        <H3>11.5K Inline Men</H3>
+        {createTable(SingleLapInlineMen)}
+        <H3>11.5K Quad Women</H3>
+        {createTable(SingleLapQuadWomen)}
+        <H3>11.5K Quad Men</H3>
+        {createTable(SingleLapQuadMen)}
       <ScrollRestoration />
     </Main>
   )
 }
 
 export default Results
-
-// Men's Inline Moreathon
-// Women's Inline Moreathon
-// Men's Quad Moreathon
-// Women's Quad Moreathon
-// Men's Inline 11.5K
-// Women's Inline 11.5K
-// Men's Quad 11.5K
-// Women's Quad 11.5K
-// Inline Moreathon Relay
-// Quad Moreathon Relay
-//
-// I need to separate the skaters according to all of the unique combinations of category (Sex, Athlete Type, Race Type) and then sort each category by <Place>. 
-//
-// I will iterate through each skater, and check if their category combination is unique,
-// If it is unique (ie does not exist yet), I will create a key and push the skater to that key.
-// if it is not unique (ie already exists) I will push the skater to that key.
-// I will then have an object with keys of all the existing combinations of category,
-// where each key is an array of skater objects whose category combination matches that key.
-//
-// I need to create a table for each category
-// I will iterate over the categoryData, and create a table for each
-// for the tbody, i will iterate over the skaters and create a composite row for each one.
-// Place | Time | first name + last name | age | team | City, State | Split
