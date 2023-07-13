@@ -102,8 +102,7 @@ const Home = () => {
             Online Registration closes on May 16th, 2024.
           </P>
           <P>
-            On-Site registration will be available on May 18th, 2024, from 8:00 AM
-            - 9:00 AM.
+            On-Site registration will be available on May 18th, 2024, starting at 7:15 am.
           </P>
         </Section>
         <Section>
@@ -125,6 +124,7 @@ const Home = () => {
               <List>
                 {[
                   "Top 3 Overall Teams",
+                  "Top Junior Team",
                   "Best Team Name",
                 ]}
               </List>
