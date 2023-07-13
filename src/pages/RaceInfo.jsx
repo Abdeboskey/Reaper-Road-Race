@@ -54,10 +54,11 @@ const RaceInfo = () => {
         <P>
           In approximately the last 200 meters leading up to the start/finish
           line the road splits into 2 lanes. This section of the course is our
-          designated relay zone. The left lane will be used by all solo skaters, to
-          provide room for the relay skaters to safely make baton hand offs in the
-          main traveling lane. Solo skaters will merge back in to the main
-          traveling lane before crossing the start/finish line.
+          designated relay zone, and will be marked with yellow tape on the
+          road. Solo Moreathon skaters will need to be aware of relay hand offs
+          in this section, and stay to the left to keep their pace. Merge to
+          the right as soon as it is safe so your timing chip can be easily
+          read when crossing the start/finish line.
         </P>
       </Section>
       <Section>
@@ -69,12 +70,11 @@ const RaceInfo = () => {
               <H3>Event Schedule</H3>
               <List>
                 {[
-                  "8:00 am - On-site registration and packet pick-up opens",
-                  "9:00 am - On-site registration closes",
-                  "9:15 am - On-site packet pick-up closes",
+                  "7:15 am - On-site registration and packet pick-up opens",
+                  "8:25 am - 11.5K pre-race safety briefing",
+                  "8:30 am - 11.5K race starts",
+                  "9:25 am - Moreathon & Relay pre-race safety briefing",
                   "9:30 am - Moreathon & Relay races begin",
-                  "9:45 am - 11.5K race begins",
-                  "1:30 pm - Awards Ceremony",
                 ]}
               </List>
             </div>
@@ -89,6 +89,9 @@ const RaceInfo = () => {
               </List>
             </div>
           </div>
+          <P center>
+            Award ceremonies will follow the completion of each event.
+          </P>
         </Section>
         <Section>
           <H3>⚠️</H3>
@@ -101,10 +104,9 @@ const RaceInfo = () => {
           <P center>
             <b>
               On-site registration will be available on Saturday, May 18th, 2024
-              from 8:00 am - 9:00 am.
+              starting at 7:15 am.
             </b>
           </P>
-          <H3>⚠️</H3>
           <CtaButton dark/>
         </Section>
         <Section>
@@ -119,6 +121,7 @@ const RaceInfo = () => {
             "Teams may be comprised of 2, 3, or 4 skaters",
             "Teams may be comprised of same or mixed genders",
             "Teams may be comprised of same or mixed discipline",
+            "Junior Team members must be 14 years old or younger",
           ]}
         </List>
         <P center>The registration fee for a relay team of any size is $140.</P>
@@ -131,8 +134,9 @@ const RaceInfo = () => {
       <Section>
         <H2 id="awards">Awards 🏅</H2>
         <P>
-          Awards will be held at the conclusion of the event (no later than
-          1:30 pm). Skaters must be present to receive prizes.
+          Awards will be held at the conclusion of each the event. The 11.5K
+          time cut off is 10am (90 minutes), and the Moreathon time cut off is
+          1pm (3.5 hours). Skaters must be present to receive prizes.
         </P>
         <P center>The following categories will be recognized:</P>
         <div className="md:flex justify-around">
@@ -143,7 +147,7 @@ const RaceInfo = () => {
                 "Men's & Women's Overall Inline",
                 "Men's & Women's Overall Quad",
                 "Men's & Women's 12 & Under",
-                "Men's & Women's 13-18"
+                "Men's & Women's 13-18",
               ]}
             </List>
           </div>
@@ -152,6 +156,7 @@ const RaceInfo = () => {
             <List>
               {[
                 "Top 3 Overall Teams",
+                "Top Junior Team",
                 "Best Team Name",
               ]}
             </List>
@@ -164,8 +169,9 @@ const RaceInfo = () => {
       <Section>
         <H2 id="safety">Safety Info ⚠️</H2>
         <P>
-          All skaters must attend the mandatory safety briefing at 9:20 am, 10 minutes before
-          the Moreathon start.
+          All skaters must be present for the mandatory safety briefing 5
+          minutes before each race start, 8:25am for the 11.5K and 9:25am for
+          the Moreathon and Relay.
         </P>
         <P>
           <span className="font-bold">
