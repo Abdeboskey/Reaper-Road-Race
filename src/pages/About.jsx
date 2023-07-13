@@ -9,7 +9,7 @@ const About = () => {
     <Main>
       <H1>About</H1>
       <P>
-        It is with much excitement that we present the first annual Carolina
+        It is with much excitement that we present the Carolina
         Reaper Road Race, brought to you by Where Are We Skating.
       </P>
       <P>
@@ -42,11 +42,11 @@ const About = () => {
         course, we had to check it out for ourselves. Upon sampling this spicy
         7.2-mile loop with our skates, it checked all the right boxes: great
         roads, low traffic, and plenty of hills - both the up and down kind. We
-        decided it would be the perfect place for our inaugural event, and thus
+        decided it would be the perfect skating venue, and thus
         the Carolina Reaper Road Race was born.
       </P>
       <P>
-        We’re proud to offer the first-ever outdoor inline & roller skating
+        We’re proud to offer this adventurous outdoor inline & roller skating
         race in Greenville. We couldn’t do any of this without you, so thank
         you for joining us on this journey. We look forward to seeing you at
         the start line on June 10th in Greenville!
