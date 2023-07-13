@@ -19,7 +19,7 @@ const SwampRabbitSocial = () => {
         >
           Unity Park
         </a>
-        {" "}starting at 9:30 am, and will roll out at 10:00 am for a fun
+        {" "}starting at 9:45 am, and will roll out at 10:00 am for a fun
         out-and-back skate. Mileage will range from 5-20 depending on
         participants' interests. We will meet back at the start afterwards for
         lunch and some good ol' fashioned socializing.
