@@ -49,7 +49,7 @@ const About = () => {
         We’re proud to offer this adventurous outdoor inline & roller skating
         race in Greenville. We couldn’t do any of this without you, so thank
         you for joining us on this journey. We look forward to seeing you at
-        the start line on June 10th in Greenville!
+        the start line!
       </P>
       <ScrollRestoration />
     </Main>
