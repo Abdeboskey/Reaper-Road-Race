@@ -46,7 +46,7 @@ const About = () => {
         the Carolina Reaper Road Race was born.
       </P>
       <P>
-        We’re proud to offer this adventurous outdoor inline & roller skating
+        We’re proud to offer this outdoor inline & roller skating
         race in Greenville. We couldn’t do any of this without you, so thank
         you for joining us on this journey. We look forward to seeing you at
         the start line!
