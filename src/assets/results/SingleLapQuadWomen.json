@@ -2,7 +2,7 @@
   {
     "Place": 1,
     "Time": "0:38:14",
-    "Bib #": 61,
+    "Bib": 61,
     "Name": "Jenna Lew",
     "Age": 29,
     "Team": "Greenville Roller Derby",
@@ -12,7 +12,7 @@
   {
     "Place": 2,
     "Time": "0:39:07",
-    "Bib #": 64,
+    "Bib": 64,
     "Name": "Elizabeth Parisi",
     "Age": 33,
     "Team": "Greenville Roller Derby",
@@ -22,7 +22,7 @@
   {
     "Place": 3,
     "Time": "0:39:45",
-    "Bib #": 66,
+    "Bib": 66,
     "Name": "Hannah Slyce",
     "Age": 29,
     "Team": "Greenville Roller Derby",
@@ -32,7 +32,7 @@
   {
     "Place": 4,
     "Time": "0:41:44",
-    "Bib #": 56,
+    "Bib": 56,
     "Name": "Rachel Burnham",
     "Age": 34,
     "Team": "",
@@ -42,7 +42,7 @@
   {
     "Place": 5,
     "Time": "0:44:39",
-    "Bib #": 70,
+    "Bib": 70,
     "Name": "Lisa Good",
     "Age": 44,
     "Team": "",
@@ -52,7 +52,7 @@
   {
     "Place": 6,
     "Time": "0:47:29",
-    "Bib #": 63,
+    "Bib": 63,
     "Name": "Morgan O'Kelley",
     "Age": 34,
     "Team": "",
@@ -62,7 +62,7 @@
   {
     "Place": 7,
     "Time": "0:57:28",
-    "Bib #": 59,
+    "Bib": 59,
     "Name": "Estelle Howard",
     "Age": 21,
     "Team": "Greenville Roller Derby",
@@ -72,7 +72,7 @@
   {
     "Place": 8,
     "Time": "1:03:14",
-    "Bib #": 72,
+    "Bib": 72,
     "Name": "Jennifer Bodiford",
     "Age": 38,
     "Team": "Spawn of Skatin'",
@@ -82,7 +82,7 @@
   {
     "Place": 9,
     "Time": "1:06:16",
-    "Bib #": 65,
+    "Bib": 65,
     "Name": "Nicole Robinson",
     "Age": 30,
     "Team": "Greenville Roller Derby",
@@ -92,7 +92,7 @@
   {
     "Place": 10,
     "Time": "1:06:16",
-    "Bib #": 54,
+    "Bib": 54,
     "Name": "Jennifer Barksdale",
     "Age": 29,
     "Team": "Greenville Roller Derby",
@@ -102,7 +102,7 @@
   {
     "Place": 11,
     "Time": "1:08:33",
-    "Bib #": 73,
+    "Bib": 73,
     "Name": "Kelly Creech",
     "Age": 45,
     "Team": "Spawn of Skatin'",
@@ -112,7 +112,7 @@
   {
     "Place": 12,
     "Time": "1:17:54",
-    "Bib #": 55,
+    "Bib": 55,
     "Name": "Amanda Bockis",
     "Age": 45,
     "Team": "Upstate Roller Girl Evolution",
@@ -122,7 +122,7 @@
   {
     "Place": 13,
     "Time": "1:18:23",
-    "Bib #": 76,
+    "Bib": 76,
     "Name": "Missy Craig",
     "Age": 41,
     "Team": "Upstate Roller Girl Evolution",
@@ -132,7 +132,7 @@
   {
     "Place": 14,
     "Time": "1:21:02",
-    "Bib #": 58,
+    "Bib": 58,
     "Name": "Lesley Fonokalafi",
     "Age": 39,
     "Team": "Greenville Roller Derby",
@@ -142,7 +142,7 @@
   {
     "Place": "DNF",
     "Time": "",
-    "Bib #": 53,
+    "Bib": 53,
     "Name": "Jessica Aultz",
     "Age": 37,
     "Team": "Upstate Roller Girl Evolution",
@@ -152,7 +152,7 @@
   {
     "Place": "DNF",
     "Time": "",
-    "Bib #": 60,
+    "Bib": 60,
     "Name": "Angela Kunschman",
     "Age": 48,
     "Team": "Upstate Roller Girl Evolution",
@@ -162,7 +162,7 @@
   {
     "Place": "DNS",
     "Time": "",
-    "Bib #": 57,
+    "Bib": 57,
     "Name": "Hagen Edgar",
     "Age": 34,
     "Team": "",
@@ -172,7 +172,7 @@
   {
     "Place": "DNS",
     "Time": "",
-    "Bib #": 62,
+    "Bib": 62,
     "Name": "Elaine Mcalister",
     "Age": 46,
     "Team": "Upstate Roller Girl Evolution",
