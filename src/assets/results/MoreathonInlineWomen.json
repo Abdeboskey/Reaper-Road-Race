@@ -2,7 +2,7 @@
   {
     "Place": 1,
     "Time": "1:43:48",
-    "Bib #": 4,
+    "Bib": 4,
     "Name": "Brandi Bedrosian",
     "Age": 39,
     "Team": "Rollaire Speed",
@@ -16,7 +16,7 @@
   {
     "Place": 2,
     "Time": "2:31:29",
-    "Bib #": 3,
+    "Bib": 3,
     "Name": "Elizabeth Bailey",
     "Age": 56,
     "Team": "Roadskater.net",
