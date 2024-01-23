@@ -12,7 +12,7 @@ import SwampRabbitSocial from 'components/SwampRabbitSocial'
 import AddressLink from 'components/AddressLink'
 
 import heroLogo from 'assets/hero_logo_2024.svg'
-import heroBG from 'assets/skaters.jpg'
+import heroBG from 'assets/CRRRHero2024.jpg'
 
 const Home = () => {
   const linkStyle = "text-orange-500 underline"
@@ -26,7 +26,7 @@ const Home = () => {
           alt="Inline skaters standing next to each other on a road"
         />
         <img
-          className="absolute inset-x-1/2 -translate-x-1/2 inset-y-1/2 -translate-y-1/2 w-11/12 md:w-1/2"
+          className="absolute inset-x-1/2 -translate-x-1/4 inset-y-1/2 -translate-y-1/4 w-11/12 md:w-1/2"
           src={heroLogo}
           alt="Carolina Reaper Road Race Logo"
         />
