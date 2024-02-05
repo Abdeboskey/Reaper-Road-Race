@@ -42,9 +42,6 @@ const Contact = () => {
         <a href="https://www.instagram.com/reaperroadrace/" target="_blank">
           <img className={iconStyle} src={instagram} alt="Instagram icon" />
         </a>
-        <a href="https://www.facebook.com/reaperroadrace" target="_blank">
-          <img className={iconStyle} src={facebook} alt="Facebook icon" />
-        </a>
         <a href="https://www.strava.com/clubs/1121972" target="_blank">
           <img className={iconStyle} src={strava} alt="Strava icon" />
         </a>
