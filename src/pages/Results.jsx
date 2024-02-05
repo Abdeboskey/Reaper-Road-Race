@@ -29,7 +29,7 @@ const Results = () => {
     const rowsArray = []
     const valuesArray = []
 
-    data.map((d) => {
+    data.forEach((d) => {
       rowsArray.push(Object.keys(d));
       valuesArray.push(Object.values(d));
     })
