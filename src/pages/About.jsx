@@ -27,7 +27,7 @@ const About = () => {
         skating venue, and thus the Carolina Reaper Road Race was born.
       </P>
       <P>
-        Where Are We Skating is proud to offer this adventurous outdoor inline
+        Where Are We Skating is proud to offer this outdoor inline
         & roller skating race in Greenville. We couldn’t do any of this without
         you, so thank you for joining us on this journey. We look forward to
         seeing you at the start line!

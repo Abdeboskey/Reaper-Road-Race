@@ -2,40 +2,40 @@
   {
     "Place": 1,
     "Time": "0:25:23",
-    "Bib #": 52,
+    "Bib": 52,
     "Name": "Solymar Vivas",
-    "Age": "Venezuela",
-    "Team": 30,
+    "Age": 30,
+    "Team": "Venezuela",
     "City, State": "Duluth, GA",
     "MPH": 17.23
   },
   {
     "Place": 2,
     "Time": "0:25:24",
-    "Bib #": 50,
+    "Bib": 50,
     "Name": "Genesis Delgado",
-    "Age": "Venezuela",
-    "Team": 27,
+    "Age": 27,
+    "Team": "Venezuela",
     "City, State": "Acworth, GA",
     "MPH": 17.23
   },
   {
     "Place": 3,
     "Time": "0:36:12",
-    "Bib #": 75,
+    "Bib": 75,
     "Name": "Tessa Del Castillo",
-    "Age": "",
-    "Team": 36,
+    "Age": 36,
+    "Team": "",
     "City, State": "Simpsonville, SC",
     "MPH": 11.97
   },
   {
     "Place": 4,
     "Time": "0:41:39",
-    "Bib #": 51,
+    "Bib": 51,
     "Name": "Jackie Pusker",
-    "Age": "",
-    "Team": 32,
+    "Age": 32,
+    "Team": "",
     "City, State": "Greenville, SC",
     "MPH": 10.51
   }
