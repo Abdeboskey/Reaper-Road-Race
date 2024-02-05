@@ -26,7 +26,7 @@ const Home = () => {
           alt="Inline skaters standing next to each other on a road"
         />
         <img
-          className="absolute inset-x-1/2 -translate-x-1/4 inset-y-1/2 -translate-y-1/4 w-11/12 md:w-1/2"
+          className="absolute inset-x-1/2 -translate-x-1/3 sm:-translate-x-1/4 inset-y-1/2 sm:-translate-y-1/4 w-3/5 md:w-1/2"
           src={heroLogo}
           alt="Carolina Reaper Road Race Logo"
         />
