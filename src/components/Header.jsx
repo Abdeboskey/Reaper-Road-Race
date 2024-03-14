@@ -100,6 +100,15 @@ const Header = () => {
             >
               CONTACT
             </NavLink>
+            <a 
+              className={linkStyle}
+              onClick={() => setIsNavOpen(!isNavOpen)}
+              href="http://waws.bigcartel.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              SHOP
+            </a>
           </div>
           <CtaButton />
         </div>
