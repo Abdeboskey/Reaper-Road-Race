@@ -7,8 +7,8 @@ const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
   const [showHeader, setShowHeader] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
-  const linkStyle = "block mt-4 lg:inline-block lg:mt-0 text-2xl tracking-wide text-center hover:text-green-300 md:mr-6"
-  const activeLinkStyle = " text-green-300"
+  const linkStyle = "block mt-4 lg:inline-block lg:mt-0 text-2xl tracking-wide text-center hover:text-[#ADD038] md:mr-6"
+  const activeLinkStyle = " text-[#ADD038]"
 
   const handleScroll = () => {
     if (typeof window !== 'undefined') {
@@ -107,7 +107,7 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              SHOP
+              🌶️ SHOP
             </a>
           </div>
           <CtaButton />
