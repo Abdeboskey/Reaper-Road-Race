@@ -37,38 +37,57 @@ const GettingThere = () => {
       </Section>
       <Section>
         <H2>Flying to Greenville ✈️</H2>
-        <P center>
-          Fly in to the Greenville-Spartanburg International (GSP) airport.
+        <P>
+          The closest airport to the event is the Greenville-Spartanburg
+          International (GSP) airport. Allegiant Air, American Airlines, Delta
+          Airlines, Southwest Airlines, and United Airlines fly in to
+          Greenville.
+        </P>
+        <P>
+          Other nearby airports include Charlotte Douglas International Airport
+          (CLT), which is approximately 100 miles from our start/finish line,
+          and Hartsfield-Jackson Atlanta International Airport (ATL), which is
+          approximately 160 miles away from our start/finish line.
         </P>
       </Section>
       <Section>
         <H2>Staying in Greenville 🏨</H2>
         <H3>
-          Hotel Suggestions
+          2024 Host Hotel
         </H3>
+        <P>
+          This year’s host hotel is located approximately 4 miles from the GSP
+          airport and 12 miles from the start/finish line of our course.
+        </P>
         <P center>
-          The hotels below are approximately 17 miles from the airport and 7.5
-          miles from the course.
+          Click below to take advantage of our group rate discount!
         </P>
         <P center>
           <a
             className={linkStyle}
-            href="https://www.choicehotels.com/south-carolina/piedmont/comfort-suites-hotels/sc362"
+            href="https://www.choicehotels.com/reservations/groups/wj26a0?checkInDate=2024-05-17&checkOutDate=2024-05-19&ratePlanCode=BUCANZ"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Comfort Suites
+            Comfort Suites Greenville Airport
           </a>
         </P>
-        <P center>
-          <a
-            className={linkStyle}
-            href="https://www.ihg.com/holidayinnexpress/hotels/us/en/piedmont/andpm/hoteldetail/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Holiday Inn Express
-          </a>
+        <P>
+          The group rate only applies to a two night stay from Friday May 17th,
+          through check out on Sunday morning May 19th. No other date
+          configuration is available.
+        </P>
+        <P>
+          All reservations need to be booked by April 17, 2024, at the latest.
+          Both Two Queen bed rooms and Single King bed rooms are available. Our
+          initial reserved block is limited, and if our room block is filled we
+          may be given the chance to add more rooms. The sooner you reserve
+          your rooms the better.
+        </P>
+        <P>
+          If an individual reservation needs to be canceled, it must be
+          completed 72 hours prior to arrival to avoid a fee of one night’s
+          room and tax.
         </P>
       </Section>
       <Section>
