@@ -37,13 +37,13 @@ const GettingThere = () => {
       </Section>
       <Section>
         <H2>Flying to Greenville ✈️</H2>
-        <P center>
+        <P>
           The closest airport to the event is the Greenville-Spartanburg
           International (GSP) airport. Allegiant Air, American Airlines, Delta
           Airlines, Southwest Airlines, and United Airlines fly in to
           Greenville.
         </P>
-        <P center>
+        <P>
           Other nearby airports include Charlotte Douglas International Airport
           (CLT), which is approximately 100 miles from our start/finish line,
           and Hartsfield-Jackson Atlanta International Airport (ATL), which is
@@ -55,7 +55,7 @@ const GettingThere = () => {
         <H3>
           2024 Host Hotel
         </H3>
-        <P center>
+        <P>
           This year’s host hotel is located approximately 4 miles from the GSP
           airport and 12 miles from the start/finish line of our course.
         </P>
@@ -72,19 +72,19 @@ const GettingThere = () => {
             Comfort Suites Greenville Airport
           </a>
         </P>
-        <P center>
+        <P>
           The group rate only applies to a two night stay from Friday May 17th,
           through check out on Sunday morning May 19th. No other date
           configuration is available.
         </P>
-        <P center>
+        <P>
           All reservations need to be booked by April 17, 2024, at the latest.
           Both Two Queen bed rooms and Single King bed rooms are available. Our
           initial reserved block is limited, and if our room block is filled we
           may be given the chance to add more rooms. The sooner you reserve
           your rooms the better.
         </P>
-        <P center>
+        <P>
           If an individual reservation needs to be canceled, it must be
           completed 72 hours prior to arrival to avoid a fee of one night’s
           room and tax.
