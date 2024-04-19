@@ -78,7 +78,7 @@ const GettingThere = () => {
           configuration is available.
         </P>
         <P>
-          All reservations need to be booked by April 17, 2024, at the latest.
+          All reservations need to be booked by April 23, 2024, at the latest.
           Both Two Queen bed rooms and Single King bed rooms are available. Our
           initial reserved block is limited, and if our room block is filled we
           may be given the chance to add more rooms. The sooner you reserve
