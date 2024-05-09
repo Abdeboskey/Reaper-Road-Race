@@ -8,8 +8,12 @@ import P from 'components/markup/P'
 import Junk from 'assets/sponsors/Junk.svg'
 import SheaStokes from 'assets/sponsors/SheaStokes.svg'
 import RollATL from 'assets/sponsors/RollATL.svg'
-import Rollerblade from 'assets/sponsors/Rollerblade.svg'
+import AsphaltBeach from 'assets/sponsors/AsphaltBeach.svg'
 import GriffReaper from 'assets/sponsors/GriffReaper.svg'
+import PiperWheels from 'assets/sponsors/PiperWheels.svg'
+import CruzOutdoors from 'assets/sponsors/CruzOutdoors.svg'
+import UpstateSpine from 'assets/sponsors/UpstateSpine.svg'
+import PinnacleRacing from 'assets/sponsors/PinnacleRacing.svg'
 
 const Sponsors = () => {
 
@@ -18,24 +22,40 @@ const Sponsors = () => {
       <Section>
         <H1>Sponsors</H1>
         <P center>
-          Thank you to our 2023 sponsors!
+          Thank you to our 2024 sponsors!
         </P>
-        <div className="flex-col my-8 mx-auto w-4/5">
+        <div className="flex-col my-4 mx-auto w-4/5">
           <div className="flex flex-wrap justify-around items-center">
-            <a href="https://junkwheels.com/" target="_blank" rel="noopener noreferrer">
-              <img className="h-40 my-2" src={Junk} alt="Junk Skates logo" />
+            <a href="https://piperwheels.com/" target="_blank" rel="noopener noreferrer">
+              <img className="h-52 md:h-40 my-6" src={PiperWheels} alt="Piper Wheels Logo" />
             </a>
-            <img className="h-32 m-2" src={SheaStokes} alt="Shea/Stokes Inline Speed Logo" />
+            <a href="https://cruzoutdoors.com/" target="_blank" rel="noopener noreferrer">
+              <img className="h-52 md:h-40 my-6" src={CruzOutdoors} alt="Cruz Outdoors Logo" />
+            </a>
+            <img className="h-52 md:h-40 m-2" src={SheaStokes} alt="Shea/Stokes Inline Speed Logo" />
           </div>
           <div className="flex flex-wrap justify-around items-center md:my-8">
             <a href="https://www.rollatl.com/" target="_blank" rel="noopener noreferrer">
-              <img className="h-52 md:h-40 my-2" src={RollATL} alt="Roll ATL logo" />
+              <img className="h-52 md:h-40 my-6" src={RollATL} alt="Roll ATL logo" />
             </a>
-            <a href="https://www.rollerblade.com/" target="_blank" rel="noopener noreferrer">
-              <img className="h-32 m-6" src={Rollerblade} alt="Rollerblade Logo" />
+            <a href="https://www.asphaltbeach.com/" target="_blank" rel="noopener noreferrer">
+              <img className="h-52 md:h-40 my-6" src={AsphaltBeach} alt="Asphalt Beach Logo" />
             </a>
-            <a href="https://thegriffreaperhotsauce.com/" target="_blank" rel="noopener noreferrer">
-              <img className="h-52 md:h-40 my-2" src={GriffReaper} alt="Griff Reaper Hot Sauce Logo" />
+            <a href="https://www.instagram.com/thegriffreaperhotsauce" target="_blank" rel="noopener noreferrer">
+              <img className="h-52 md:h-40 my-6" src={GriffReaper} alt="Griff Reaper Hot Sauce Logo" />
+            </a>
+          </div>
+          <div className="flex flex-wrap justify-around items-center">
+            <a href="https://junkwheels.com/" target="_blank" rel="noopener noreferrer">
+              <img className="w-80 my-6" src={Junk} alt="Junk Skates logo" />
+            </a>
+            <a href="https://www.pinnacleracing.com/" target="_blank" rel="noopener noreferrer">
+              <img className="w-80 my-6" src={PinnacleRacing} alt="Pinnacle Racing Logo" />
+            </a>
+          </div>
+          <div className="flex flex-wrap justify-around items-center">
+            <a href="https://upstatespineandsport.com/" target="_blank" rel="noopener noreferrer">
+              <img className="h-52 md:h-40 my-6" src={UpstateSpine} alt="Upstate Spine & Sport Logo" />
             </a>
           </div>
         </div>
