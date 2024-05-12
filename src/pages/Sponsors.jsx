@@ -5,7 +5,6 @@ import H1 from 'components/markup/H1'
 import H2 from 'components/markup/H2'
 import P from 'components/markup/P'
 
-import Junk from 'assets/sponsors/Junk.svg'
 import SheaStokes from 'assets/sponsors/SheaStokes.svg'
 import RollATL from 'assets/sponsors/RollATL.svg'
 import AsphaltBeach from 'assets/sponsors/AsphaltBeach.svg'
@@ -46,9 +45,6 @@ const Sponsors = () => {
             </a>
           </div>
           <div className="flex flex-wrap justify-around items-center">
-            <a href="https://junkwheels.com/" target="_blank" rel="noopener noreferrer">
-              <img className="w-80 my-6" src={Junk} alt="Junk Skates logo" />
-            </a>
             <a href="https://www.pinnacleracing.com/" target="_blank" rel="noopener noreferrer">
               <img className="w-80 my-6" src={PinnacleRacing} alt="Pinnacle Racing Logo" />
             </a>
