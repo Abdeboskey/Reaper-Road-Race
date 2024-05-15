@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { ScrollRestoration } from 'react-router-dom'
 
 import Main from 'components/markup/Main'
@@ -23,6 +24,7 @@ import SingleLapQuadWomen from 'assets/results/SingleLapQuadWomen.json'
 import SingleLapQuadMen from 'assets/results/SingleLapQuadMen.json'
 
 const Results = () => {
+  const [year, setYear] = useState("2023")
   const tableRowStyle = "border border-gray-100 text-center p-1"
 
   const createTable = (data) => {
@@ -60,10 +62,21 @@ const Results = () => {
     )
   }
 
+  const handleChange = (event) => setYear(event.target.value)
+
   return (
     <Main>
-        <H1>2023 Results</H1>
-        <P center>Congratulations to all of our 2023 Skaters!</P>
+        <H1>Results</H1>
+        <div className="text-black text-center">
+          <label>
+            Year:{" "}
+            <select className="bg-orange-300 rounded-md" value={year} onChange={handleChange}>
+              <option value="2023">2023</option>
+              <option value="2024">2024</option>
+            </select>
+          </label>
+        </div>
+        <P center>Congratulations to all of our {year} Skaters!</P>
         <H3>Moreathon Overall</H3>
         {createTable(MoreathonOverall)}
         <H3>Relay Overall</H3>
