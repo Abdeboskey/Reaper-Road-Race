@@ -22,10 +22,7 @@ const Contact = () => {
         Are you interested in sponsoring the Carolina Reaper Road Race?
       </P>
       <P>
-        Would you like to volunteer for the event?
-      </P>
-      <P>
-        Would you like to learn more about Where Are We Skating?
+        Do you have questions about our event?
       </P>
       <P>
         If so, please contact us at{" "}
@@ -35,7 +32,7 @@ const Contact = () => {
         >
           whereareweskating@gmail.com
         </a>
-        {" "}or send us a message on any of our social media profiles and we'll get
+        {" "}or send us a message to our social media accounts and we'll get
         back to you as quickly as we can.
       </P>
       <div className={socialDivStyle}> 
