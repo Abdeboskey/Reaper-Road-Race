@@ -27,7 +27,7 @@ const Results = () => {
       return (
         <div className="my-8">
           <H3>{year}{" "}{category.name}</H3>
-          <div className="bg-gradient-to-b from-orange-300 rounded-lg overflow-auto">
+          <div className="bg-gradient-to-b from-orange-300 rounded-lg my-4 overflow-auto">
             <table className="w-full text-black text-xs table-auto">
               <thead>
                 <tr>
