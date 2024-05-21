@@ -67,8 +67,8 @@ const Results = () => {
               value={year}
               onChange={handleChange}
             >
-              <option value="2023">2023</option>
-              <option value="2024">2024</option>
+              {Object.keys(results).map((value) => <option
+              value={value}>{value}</option>)}
             </select>
           </label>
         </div>
