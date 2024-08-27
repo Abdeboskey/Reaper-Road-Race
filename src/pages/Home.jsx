@@ -37,7 +37,7 @@ const Home = () => {
             Inline & Quad skating race in Greenville, SC
           </H1>
           <H3>
-            Saturday, May 18th, 2024
+            Saturday, May 17th, 2025
           </H3>
           <AddressLink />
           <P center>
@@ -48,7 +48,7 @@ const Home = () => {
             >
               Where Are We Skating
             </Link>
-            {" "}on Saturday, May 18th, 2024 for the second annual Carolina
+            {" "}on Saturday, May 17th, 2025 for the third annual Carolina
             Reaper Road Race in Greenville, SC.  Whether you're a fan of inline
             skates, roller skates, skating solo, or skating with your friends,
             this is an exciting and challenging road race that's destined to
