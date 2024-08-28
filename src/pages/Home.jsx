@@ -96,13 +96,13 @@ const Home = () => {
             ]}
           </List>
           <P>
-            Pre-Register by May 3rd, 2024 to guarantee your t-shirt size.
+            Pre-Register by May 2nd, 2025 to guarantee your t-shirt size.
           </P>
           <P>
-            Online Registration closes on May 16th, 2024.
+            Online Registration closes on May 15th, 2025.
           </P>
           <P>
-            On-Site registration will be available on May 18th, 2024, starting at 7:15 am.
+            On-Site registration will be available on May 17th, 2025, starting at 7:15 am.
           </P>
         </Section>
         <Section>
