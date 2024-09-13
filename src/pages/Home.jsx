@@ -11,8 +11,8 @@ import CategoryContainer from 'components/CategoryContainer'
 import SwampRabbitSocial from 'components/SwampRabbitSocial'
 import AddressLink from 'components/AddressLink'
 
-import heroLogo from 'assets/hero_logo_2024.svg'
-import heroBG from 'assets/CRRRHero2024.jpg'
+import heroLogo from 'assets/hero_logo_2025.svg'
+import heroBG from 'assets/CRRRHero2025.jpg'
 
 const Home = () => {
   const linkStyle = "text-orange-500 underline"
