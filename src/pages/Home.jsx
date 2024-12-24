@@ -51,8 +51,8 @@ const Home = () => {
             {" "}on Saturday, May 17th, 2025 for the third annual Carolina
             Reaper Road Race in Greenville, SC.  Whether you're a fan of inline
             skates, roller skates, skating solo, or skating with your friends,
-            this is an exciting and challenging road race that's destined to
-            become a southern classic.
+            this is an exciting and challenging road race that's already
+            becoming a southern classic.
           </P>
           <P center>
             Read on for more info about{" "} 
@@ -96,7 +96,7 @@ const Home = () => {
             ]}
           </List>
           <P>
-            Pre-Register by May 2nd, 2025 to guarantee your t-shirt size.
+            Pre-Register by April 23rd, 2025 to guarantee your t-shirt size.
           </P>
           <P>
             Online Registration closes on May 15th, 2025.
