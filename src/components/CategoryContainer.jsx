@@ -20,10 +20,17 @@ const CategoryContainer = () => {
         startTime="9:30"
       />
       <CategoryCard
-        name="11.5 K"
+        name="Single Spicy Lap"
         description="Get acquainted with the pepper and feel the heat in this single lap race."
         numLaps="1"
         distance="7.2"
+        startTime="8:30"
+      />
+      <CategoryCard
+        name="Maximum Reaper"
+        description="Max out your race day with Maximum Reaper, which signs you up for both distances."
+        numLaps="5 total"
+        distance="36"
         startTime="8:30"
       />
     </div>
