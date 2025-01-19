@@ -39,9 +39,10 @@ const RaceInfo = () => {
         <AddressLink />
         <P>
           All divisions of the race will be held on a 7.2 mile clockwise loop.
-          11.5K entrants will complete a single lap of the course, and the
+          Single Spicy Lap entrants will complete a single lap of the course, the
           Moreathon and relay team entrants will complete 4 laps of the course,
-          totaling 28.8 miles. The loop is hilly, but each downhill rolls out.
+          totaling 28.8 miles, and Maximum Reaper entrants will complete 5 laps, 
+          totalling 36 miles. The loop is hilly, but each downhill rolls out.
           Skaters must be comfortable controlling their speed downhill, and
           completing a right-hand turn on a downhill slope.
         </P>
@@ -71,10 +72,10 @@ const RaceInfo = () => {
               <List>
                 {[
                   "7:15 am - On-site registration and packet pick-up opens",
-                  "8:25 am - 11.5K pre-race safety briefing",
-                  "8:30 am - 11.5K race starts",
+                  "8:25 am - Single Spicy Lap & Maximum Reaper pre-race safety briefing",
+                  "8:30 am - Single Spicy Lap & stage 1 of Maximum Reaper races start",
                   "9:25 am - Moreathon & Relay pre-race safety briefing",
-                  "9:30 am - Moreathon & Relay races begin",
+                  "9:30 am - Moreathon, Relay, & stage 2 of Maximum Reaper races begin",
                 ]}
               </List>
             </div>
@@ -82,8 +83,9 @@ const RaceInfo = () => {
               <H3>Registration Fees</H3>
               <List>
                 {[
-                  "11.5K - $40",
+                  "Single Spicy Lap - $40",
                   "Moreathon - $80",
+                  "Maximum Reaper - $100",
                   "Moreathon Relay Team - $140",
                 ]}
               </List>
@@ -134,14 +136,14 @@ const RaceInfo = () => {
       <Section>
         <H2 id="awards">Awards 🏅</H2>
         <P>
-          Awards will be held at the conclusion of each the event. The 11.5K
+          Awards will be held at the conclusion of each the event. The Single Spicy Lap
           time cut off is 10am (90 minutes), and the Moreathon time cut off is
           1pm (3.5 hours). Skaters must be present to receive prizes.
         </P>
         <P center>The following categories will be recognized:</P>
         <div className="md:flex justify-around">
           <div>
-            <H3>Moreathon & 11.5K</H3>
+            <H3>Moreathon & Single Spicy Lap</H3>
             <List>
               {[
                 "Men's & Women's Overall Inline",
@@ -161,6 +163,14 @@ const RaceInfo = () => {
               ]}
             </List>
           </div>
+          <div>
+            <H3>Maximum Reaper</H3>
+            <List>
+              {[
+                "Top 3 Overall Finishers"
+              ]}
+            </List>
+          </div>
         </div>
         <P center>
           * Age categories are determined by age of participant on race day. *
@@ -170,8 +180,8 @@ const RaceInfo = () => {
         <H2 id="safety">Safety Info ⚠️</H2>
         <P>
           All skaters must be present for the mandatory safety briefing 5
-          minutes before each race start, 8:25am for the 11.5K and 9:25am for
-          the Moreathon and Relay.
+          minutes before each race start, 8:25am for the Single Spicy Lap & Maximum Reaper
+          and 9:25am for the Moreathon and Relay.
         </P>
         <P>
           <span className="font-bold">
