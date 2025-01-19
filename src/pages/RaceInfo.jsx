@@ -39,9 +39,9 @@ const RaceInfo = () => {
         <AddressLink />
         <P>
           All divisions of the race will be held on a 7.2 mile clockwise loop.
-          Single Spicy Lap entrants will complete a single lap of the course, the
-          Moreathon and relay team entrants will complete 4 laps of the course,
-          totaling 28.8 miles, and Maximum Reaper entrants will complete 5 laps, 
+          <span className="font-bold">Single Spicy Lap</span> entrants will complete a single lap of the course, the
+          <span className="font-bold">Moreathon</span> and relay team entrants will complete 4 laps of the course,
+          totaling 28.8 miles, and <span className="font-bold">Maximum Reaper</span> entrants will complete 5 laps, 
           totalling 36 miles. The loop is hilly, but each downhill rolls out.
           Skaters must be comfortable controlling their speed downhill, and
           completing a right-hand turn on a downhill slope.
