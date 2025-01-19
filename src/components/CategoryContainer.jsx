@@ -29,7 +29,7 @@ const CategoryContainer = () => {
       <CategoryCard
         name="Maximum Reaper"
         description="Max out your race day with Maximum Reaper, which signs you up for both distances."
-        numLaps="5 total"
+        numLaps="5"
         distance="36"
         startTime="8:30"
       />
