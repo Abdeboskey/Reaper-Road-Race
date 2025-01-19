@@ -109,7 +109,7 @@ const Home = () => {
           <H2>Categories 🏅</H2>
           <div className="md:flex justify-around">
             <div>
-              <H3>Moreathon & 11.5K</H3>
+              <H3>Moreathon & Single Spicy Lap</H3>
               <List>
                 {[
                   "Men's & Women's Overall Inline",
@@ -126,6 +126,14 @@ const Home = () => {
                   "Top 3 Overall Teams",
                   "Top Junior Team",
                   "Best Team Name",
+                ]}
+              </List>
+            </div>
+            <div>
+              <H3>Maximum Reaper</H3>
+              <List>
+                {[
+                  "Top 3 Overall Finishers"
                 ]}
               </List>
             </div>
