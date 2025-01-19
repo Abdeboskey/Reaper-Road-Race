@@ -90,7 +90,7 @@ const Home = () => {
           <H2>Registration Fees 💸</H2>
           <List>
             {[
-              "11.5K - $40",
+              "Single Spicy Lap - $40",
               "Moreathon - $80",
               "Moreathon Relay Team - $140",
             ]}
