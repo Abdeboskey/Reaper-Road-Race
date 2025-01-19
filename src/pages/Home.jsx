@@ -92,6 +92,7 @@ const Home = () => {
             {[
               "Single Spicy Lap - $40",
               "Moreathon - $80",
+              "Maximum Reaper - $100",
               "Moreathon Relay Team - $140",
             ]}
           </List>
