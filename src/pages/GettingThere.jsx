@@ -53,19 +53,20 @@ const GettingThere = () => {
       <Section>
         <H2>Staying in Greenville 🏨</H2>
         <H3>
-          2024 Host Hotel
+          2025 Host Hotel
         </H3>
         <P>
           This year’s host hotel is located approximately 4 miles from the GSP
-          airport and 12 miles from the start/finish line of our course.
+          airport and 12 miles from the start/finish line of our course. It is
+          also the location for our Friday Night packet pickup!
         </P>
         <P center>
-          Click below to take advantage of our group rate discount!
+          Click below to take advantage of our group rate discount
         </P>
         <P center>
           <a
             className={linkStyle}
-            href="https://www.choicehotels.com/reservations/groups/wj26a0?checkInDate=2024-05-17&checkOutDate=2024-05-19&ratePlanCode=BUCANZ"
+            href="https://www.choicehotels.com/reservations/groups/mf31g0?checkInDate=2025-05-16&checkOutDate=2025-05-18&ratePlanCode=BODKQU"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -73,16 +74,16 @@ const GettingThere = () => {
           </a>
         </P>
         <P>
-          The group rate only applies to a two night stay from Friday May 17th,
-          through check out on Sunday morning May 19th. No other date
+          The group rate only applies to a two night stay from Friday May 16th,
+          through check out on Sunday morning May 18th. No other date
           configuration is available.
         </P>
         <P>
-          All reservations need to be booked by April 23, 2024, at the latest.
-          Both Two Queen bed rooms and Single King bed rooms are available. Our
-          initial reserved block is limited, and if our room block is filled we
-          may be given the chance to add more rooms. The sooner you reserve
-          your rooms the better.
+          All reservations need to be booked by April 25, 2024, at the latest.
+          Only Two Queen bed rooms are available. Our initial reserved block
+          is limited, and if our room block is filled we may be given
+          the chance to add more rooms. The sooner you reserve your rooms
+          the better.
         </P>
         <P>
           If an individual reservation needs to be canceled, it must be
