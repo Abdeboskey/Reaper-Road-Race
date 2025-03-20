@@ -11,7 +11,7 @@ import AsphaltBeach from 'assets/sponsors/AsphaltBeach.svg'
 import GriffReaper from 'assets/sponsors/GriffReaper.svg'
 import PiperWheels from 'assets/sponsors/PiperWheels.svg'
 import CruzOutdoors from 'assets/sponsors/CruzOutdoors.svg'
-import UpstateSpine from 'assets/sponsors/UpstateSpine.svg'
+import BackBottle from 'assets/sponsors/BackBottle.svg'
 import PinnacleRacing from 'assets/sponsors/PinnacleRacing.svg'
 
 const Sponsors = () => {
@@ -50,8 +50,8 @@ const Sponsors = () => {
             </a>
           </div>
           <div className="flex flex-wrap justify-around items-center">
-            <a href="https://upstatespineandsport.com/" target="_blank" rel="noopener noreferrer">
-              <img className="h-52 md:h-40 my-6" src={UpstateSpine} alt="Upstate Spine & Sport Logo" />
+            <a href="https://backbottle.com/" target="_blank" rel="noopener noreferrer">
+              <img className="h-52 md:h-40 my-6" src={BackBottle} alt="Back Bottle Logo" />
             </a>
           </div>
         </div>
