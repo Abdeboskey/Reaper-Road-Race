@@ -21,21 +21,21 @@ const Sponsors = () => {
       <Section>
         <H1>Sponsors</H1>
         <P center>
-          Thank you to our 2024 sponsors!
+          Thank you to our 2025 sponsors!
         </P>
         <div className="flex-col my-4 mx-auto w-4/5">
           <div className="flex flex-wrap justify-around items-center">
             <a href="https://piperwheels.com/" target="_blank" rel="noopener noreferrer">
               <img className="h-52 md:h-40 my-6" src={PiperWheels} alt="Piper Wheels Logo" />
             </a>
-            <a href="https://cruzoutdoors.com/" target="_blank" rel="noopener noreferrer">
-              <img className="h-52 md:h-40 my-6" src={CruzOutdoors} alt="Cruz Outdoors Logo" />
+            <a href="https://www.rollatl.com/" target="_blank" rel="noopener noreferrer">
+              <img className="h-52 md:h-40 my-6" src={RollATL} alt="Roll ATL logo" />
             </a>
             <img className="h-52 md:h-40 m-2" src={SheaStokes} alt="Shea/Stokes Inline Speed Logo" />
           </div>
           <div className="flex flex-wrap justify-around items-center md:my-8">
-            <a href="https://www.rollatl.com/" target="_blank" rel="noopener noreferrer">
-              <img className="h-52 md:h-40 my-6" src={RollATL} alt="Roll ATL logo" />
+              <a href="https://cruzoutdoors.com/" target="_blank" rel="noopener noreferrer">
+              <img className="h-52 md:h-40 my-6" src={CruzOutdoors} alt="Cruz Outdoors Logo" />
             </a>
             <a href="https://www.asphaltbeach.com/" target="_blank" rel="noopener noreferrer">
               <img className="h-52 md:h-40 my-6" src={AsphaltBeach} alt="Asphalt Beach Logo" />
