@@ -13,6 +13,7 @@ import PiperWheels from 'assets/sponsors/PiperWheels.svg'
 import CruzOutdoors from 'assets/sponsors/CruzOutdoors.svg'
 import BackBottle from 'assets/sponsors/BackBottle.svg'
 import PinnacleRacing from 'assets/sponsors/PinnacleRacing.svg'
+import NuunHydration from 'assets/sponsors/NuunHydration.svg'
 
 const Sponsors = () => {
 
