@@ -32,29 +32,24 @@ const Sponsors = () => {
             <a href="https://www.rollatl.com/" target="_blank" rel="noopener noreferrer">
               <img className="h-52 md:h-40 my-6" src={RollATL} alt="Roll ATL logo" />
             </a>
-            <img className="h-52 md:h-40 m-2" src={SheaStokes} alt="Shea/Stokes Inline Speed Logo" />
-          </div>
-          <div className="flex flex-wrap justify-around items-center md:my-8">
-              <a href="https://cruzoutdoors.com/" target="_blank" rel="noopener noreferrer">
-              <img className="h-52 md:h-40 my-6" src={CruzOutdoors} alt="Cruz Outdoors Logo" />
-            </a>
             <a href="https://www.asphaltbeach.com/" target="_blank" rel="noopener noreferrer">
               <img className="h-52 md:h-40 my-6" src={AsphaltBeach} alt="Asphalt Beach Logo" />
-            </a>
-            <a href="https://www.facebook.com/GriffReaperHotSauceCo/" target="_blank" rel="noopener noreferrer">
+          </div>
+          <div className="flex flex-wrap justify-around items-center md:my-8">
+              <a href="https://www.facebook.com/GriffReaperHotSauceCo/" target="_blank" rel="noopener noreferrer">
               <img className="h-52 md:h-40 my-6" src={GriffReaper} alt="Griff Reaper Hot Sauce Logo" />
             </a>
-          </div>
-          <div className="flex flex-wrap justify-around items-center">
-            <a href="https://www.pinnacleracing.com/" target="_blank" rel="noopener noreferrer">
-              <img className="w-80 my-6" src={PinnacleRacing} alt="Pinnacle Racing Logo" />
-            </a>
-          </div>
-          <div className="flex flex-wrap justify-around items-center">
             <a href="https://backbottle.com/" target="_blank" rel="noopener noreferrer">
               <img className="h-52 md:h-40 my-6" src={BackBottle} alt="Back Bottle Logo" />
             </a>
+            <a href="https://cruzoutdoors.com/" target="_blank" rel="noopener noreferrer">
+              <img className="h-52 md:h-40 my-6" src={CruzOutdoors} alt="Cruz Outdoors Logo" />
+            </a>
           </div>
+          <div className="flex flex-wrap justify-around items-center">
+            <a href="http://nuunlife.com/" target="_blank" rel="noopener noreferrer">
+              <img className="w-80 my-6" src={NuunHydration} alt="Nuun Hydration Logo" />
+            </a>
         </div>
       </Section>
       <ScrollRestoration />
