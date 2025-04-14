@@ -5,7 +5,6 @@ import H1 from 'components/markup/H1'
 import H2 from 'components/markup/H2'
 import P from 'components/markup/P'
 
-import SheaStokes from 'assets/sponsors/SheaStokes.svg'
 import RollATL from 'assets/sponsors/RollATL.svg'
 import AsphaltBeach from 'assets/sponsors/AsphaltBeach.svg'
 import GriffReaper from 'assets/sponsors/GriffReaper.svg'
