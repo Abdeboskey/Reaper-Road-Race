@@ -1,6 +1,6 @@
 # Carolina Reaper Road Race
 
-The Carolina Reaper Road Race is an annual inline speed-skating race in
+The Carolina Reaper Road Race is an annual inline and quad roller skating race in
 Greenville, SC. This website will contain the who, what, why, when and where of
 the event as well as links to registration and other pertinent information.
 
