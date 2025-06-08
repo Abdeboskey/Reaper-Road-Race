@@ -136,8 +136,8 @@ const RaceInfo = () => {
       <Section>
         <H2 id="awards">Awards 🏅</H2>
         <P>
-          Awards will be held at the conclusion of each the event. The Single Spicy Lap
-          time cut off is 10am (90 minutes), and the Moreathon time cut off is
+          Awards for all race categories will be held at the conclusion of the Moreathon race. 
+          The Single Spicy Lap time cut off is 9:30am (60 minutes), and the Moreathon time cut off is
           1pm (3.5 hours). Skaters must be present to receive prizes.
         </P>
         <P center>The following categories will be recognized:</P>
