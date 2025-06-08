@@ -37,7 +37,7 @@ const Home = () => {
             Inline & Quad skating race in Greenville, SC
           </H1>
           <H3>
-            Saturday, May 17th, 2025
+            Saturday, May 16th, 2026
           </H3>
           <AddressLink />
           <P center>
@@ -48,7 +48,7 @@ const Home = () => {
             >
               Where Are We Skating
             </Link>
-            {" "}on Saturday, May 17th, 2025 for the third annual Carolina
+            {" "}on Saturday, May 16th, 2026 for the fourth annual Carolina
             Reaper Road Race in Greenville, SC.  Whether you're a fan of inline
             skates, roller skates, skating solo, or skating with your friends,
             this is an exciting and challenging road race that's already
@@ -97,13 +97,13 @@ const Home = () => {
             ]}
           </List>
           <P>
-            Pre-Register by April 23rd, 2025 to guarantee your t-shirt size.
+            Pre-Register by April 22nd, 2026 to guarantee your t-shirt size.
           </P>
           <P>
-            Online Registration closes on May 15th, 2025.
+            Online Registration closes on May 14th, 2026.
           </P>
           <P>
-            On-Site registration will be available on May 17th, 2025, starting at 7:15 am.
+            On-Site registration will be available on May 16th, 2026, starting at 7:15 am.
           </P>
         </Section>
         <Section>
