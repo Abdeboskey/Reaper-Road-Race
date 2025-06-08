@@ -38,7 +38,7 @@ const RaceInfo = () => {
         <P center>Start/Finish/Parking:</P>
         <AddressLink />
         <P>
-          All divisions of the race will be held on a 7.2 mile clockwise loop. 
+          All categories of the race will be held on a 7.2 mile clockwise loop. 
            <span className="font-bold"> Single Spicy Lap</span> entrants will complete a single lap of the course,  
            <span className="font-bold"> Moreathon</span> and relay team entrants will complete 4 laps of the course,
           totaling 28.8 miles, and <span className="font-bold">Maximum Reaper</span> entrants will complete 5 laps, 
@@ -92,20 +92,20 @@ const RaceInfo = () => {
             </div>
           </div>
           <P center>
-            Award ceremonies will follow the completion of each event.
+            Award ceremonies for all categoties will follow the completion of the Moreathon race.
           </P>
         </Section>
         <Section>
           <H3>⚠️</H3>
           <P center>
             <b>
-              Online registration will close on Thursday, May 15th, 2025 at 11:59 pm
+              Online registration will close on Thursday, May 14th, 2026 at 11:59 pm
               EDT.
             </b>
           </P>
           <P center>
             <b>
-              On-site registration will be available on Saturday, May 17th, 2025
+              On-site registration will be available on Saturday, May 16th, 2026
               starting at 7:15 am.
             </b>
           </P>
