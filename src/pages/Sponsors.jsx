@@ -33,7 +33,8 @@ const Sponsors = () => {
             </a>
             <a href="https://www.asphaltbeach.com/" target="_blank" rel="noopener noreferrer">
               <img className="h-52 md:h-40 my-6" src={AsphaltBeach} alt="Asphalt Beach Logo" />
-          </div>
+            </a>
+            </div>
           <div className="flex flex-wrap justify-around items-center md:my-8">
               <a href="https://www.facebook.com/GriffReaperHotSauceCo/" target="_blank" rel="noopener noreferrer">
               <img className="h-52 md:h-40 my-6" src={GriffReaper} alt="Griff Reaper Hot Sauce Logo" />
@@ -49,6 +50,7 @@ const Sponsors = () => {
             <a href="http://nuunlife.com/" target="_blank" rel="noopener noreferrer">
               <img className="w-80 my-6" src={NuunHydration} alt="Nuun Hydration Logo" />
             </a>
+          </div>    
         </div>
       </Section>
       <ScrollRestoration />
