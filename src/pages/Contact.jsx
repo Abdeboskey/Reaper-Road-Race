@@ -16,7 +16,7 @@ const Contact = () => {
     <Main>
       <H1>Contact</H1>
       <P>
-        Do you have questions?
+        Do you have any questions?
       </P>
       <P>
         Are you interested in sponsoring the Carolina Reaper Road Race?
