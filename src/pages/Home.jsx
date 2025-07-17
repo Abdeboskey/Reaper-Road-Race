@@ -11,7 +11,6 @@ import CategoryContainer from 'components/CategoryContainer'
 import SwampRabbitSocial from 'components/SwampRabbitSocial'
 import AddressLink from 'components/AddressLink'
 
-import heroLogo from 'assets/hero_logo_2025.svg'
 import heroBG from 'assets/CRRRHero2025.jpg'
 
 const Home = () => {
@@ -24,11 +23,6 @@ const Home = () => {
           className="h-[45vh] object-cover md:h-auto md:w-screen overflow-hidden"
           src={heroBG}
           alt="Inline skaters standing next to each other on a road"
-        />
-        <img
-          className="absolute inset-x-1/2 -translate-x-1/3 sm:-translate-x-1/4 inset-y-1/2 sm:-translate-y-1/4 w-3/5 md:w-1/2"
-          src={heroLogo}
-          alt="Carolina Reaper Road Race Logo"
         />
       </div>
       <Main>
