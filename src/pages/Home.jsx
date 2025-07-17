@@ -11,6 +11,7 @@ import CategoryContainer from 'components/CategoryContainer'
 import SwampRabbitSocial from 'components/SwampRabbitSocial'
 import AddressLink from 'components/AddressLink'
 
+import heroLogo from 'assets/hero_logo_2025.svg'
 import heroBG from 'assets/CRRRHero2025.jpg'
 
 const Home = () => {
