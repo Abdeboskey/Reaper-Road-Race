@@ -53,7 +53,7 @@ const GettingThere = () => {
       <Section>
         <H2>Staying in Greenville 🏨</H2>
         <H3>
-          2025 Host Hotel
+          2026 Host Hotel
         </H3>
         <P>
           This year’s host hotel is located approximately 4 miles from the GSP
@@ -66,7 +66,7 @@ const GettingThere = () => {
         <P center>
           <a
             className={linkStyle}
-            href="https://www.choicehotels.com/reservations/groups/mf31g0?checkInDate=2025-05-16&checkOutDate=2025-05-18&ratePlanCode=BODKQU"
+            href="https://www.choicehotels.com/reservations/groups/HK84Q6"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -74,12 +74,12 @@ const GettingThere = () => {
           </a>
         </P>
         <P>
-          The group rate only applies to a two night stay from Friday May 16th,
-          through check out on Sunday morning May 18th. No other date
+          The group rate only applies to a two night stay from Friday May 15th,
+          through check out on Sunday morning May 17th. No other date
           configuration is available.
         </P>
         <P>
-          All reservations need to be booked by April 25, 2024, at the latest.
+          All reservations need to be booked by April 24, 2026, at the latest.
           Only Two Queen bed rooms are available. Our initial reserved block
           is limited, and if our room block is filled we may be given
           the chance to add more rooms. The sooner you reserve your rooms
