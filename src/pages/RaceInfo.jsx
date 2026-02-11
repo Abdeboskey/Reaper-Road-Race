@@ -34,7 +34,7 @@ const RaceInfo = () => {
       </Section>
       <Section>
         <H2 id="course">Course Info 📍</H2>
-        <iframe className="w-full aspect-[4/5] md:aspect-[4/4] lg:aspect-[4/3]" frameBorder="0" allowtransparency="true" scrolling="no" src="https://strava-embeds.com/route/3081790995408919376"></iframe>
+        <iframe className="w-full aspect-[4/5] md:aspect-[4/4] lg:aspect-[4/3]" frameBorder="0" allowtransparency="true" scrolling="no" src="https://strava-embeds.com/route/3454656215853221120"></iframe>
         <P center>Start/Finish/Parking:</P>
         <AddressLink />
         <P>
