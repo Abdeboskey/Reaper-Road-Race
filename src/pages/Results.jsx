@@ -11,7 +11,7 @@ import P from 'components/markup/P'
 import results from 'assets/results/results.json'
 
 const Results = () => {
-  const [year, setYear] = useState("2025")
+  const [year, setYear] = useState("2024")
   const tableRowStyle = "border border-gray-100 text-center p-1"
 
   const createTables = (data) => {
