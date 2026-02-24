@@ -7977,5 +7977,76 @@
         ]
       }
     ]
+  },
+  "2026": {
+    "categories": [
+      {
+        "name": "Moreathon Overall",
+        "results": [
+          {
+            "Place": 1,
+            "Time": "",
+            "Bib": "",
+            "Name": "",
+            "Age": "",
+            "Team": "",
+            "City, State": "",
+            "MPH": "",
+            "Lap 1": "",
+            "Lap 2": "",
+            "Lap 3": "",
+            "Lap 4": ""
+          }
+        ]
+      },
+      {
+        "name": "Relay Overall",
+        "results": [
+          {
+            "Place": "",
+            "Time": "",
+            "Team": "",
+            "City, State": "",
+            "MPH": "",
+            "Lap 1": "",
+            "Lap 2": "",
+            "Lap 3": "",
+            "Lap 4": ""
+          }
+        ]
+      },
+      {
+        "name": "Single Spicy Lap Overall",
+        "results": [
+          {
+            "Place": "",
+            "Time": "",
+            "Bib": "",
+            "Name": "",
+            "Age": "",
+            "Team": "",
+            "City, State": "",
+            "MPH": ""
+          }
+        ]
+      },
+      {
+        "name": "Maximum Reaper",
+        "results": [
+          {
+            "Place": "",
+            "Time": "",
+            "Bib": "",
+            "Name": "",
+            "Age": "",
+            "Team": "",
+            "City, State": "",
+            "MPH": "",
+            "SSL": "",
+            "Moreathon": ""
+            }
+          ]
+        }
+      ]
+    }
   }
-}
