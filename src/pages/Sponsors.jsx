@@ -5,12 +5,12 @@ import H1 from 'components/markup/H1'
 import H2 from 'components/markup/H2'
 import P from 'components/markup/P'
 
-import RollATL from 'assets/sponsors/RollATL.svg'
+import Beehive from 'assets/sponsors/Beehive.svg'
 import AsphaltBeach from 'assets/sponsors/AsphaltBeach.svg'
 import GriffReaper from 'assets/sponsors/GriffReaper.svg'
 import PiperWheels from 'assets/sponsors/PiperWheels.svg'
 import CruzOutdoors from 'assets/sponsors/CruzOutdoors.svg'
-import BackBottle from 'assets/sponsors/BackBottle.svg'
+import Twincam from 'assets/sponsors/twincam.svg'
 import PinnacleRacing from 'assets/sponsors/PinnacleRacing.svg'
 import NuunHydration from 'assets/sponsors/NuunHydration.svg'
 
@@ -28,28 +28,25 @@ const Sponsors = () => {
             <a href="https://piperwheels.com/" target="_blank" rel="noopener noreferrer">
               <img className="h-52 md:h-40 my-6" src={PiperWheels} alt="Piper Wheels Logo" />
             </a>
-            <a href="https://www.rollatl.com/" target="_blank" rel="noopener noreferrer">
-              <img className="h-52 md:h-40 my-6" src={RollATL} alt="Roll ATL logo" />
-            </a>
             <a href="https://www.asphaltbeach.com/" target="_blank" rel="noopener noreferrer">
               <img className="h-52 md:h-40 my-6" src={AsphaltBeach} alt="Asphalt Beach Logo" />
+            </a>
+            <a href="http://beehiveskatedenver.com/" target="_blank" rel="noopener noreferrer">
+              <img className="h-52 md:h-40 my-6" src={Beehive} alt="Beehive Logo" />
             </a>
             </div>
           <div className="flex flex-wrap justify-around items-center md:my-8">
               <a href="https://www.facebook.com/GriffReaperHotSauceCo/" target="_blank" rel="noopener noreferrer">
               <img className="h-52 md:h-40 my-6" src={GriffReaper} alt="Griff Reaper Hot Sauce Logo" />
             </a>
-            <a href="https://backbottle.com/" target="_blank" rel="noopener noreferrer">
-              <img className="h-52 md:h-40 my-6" src={BackBottle} alt="Back Bottle Logo" />
+            <a href="https://beehiveskatedenver.com/products/twincam-ilq9-pro-bearings?_pos=1&_sid=b5dcca954&_ss=r" target="_blank" rel="noopener noreferrer">
+              <img className="h-52 md:h-40 my-6" src={Twincam} alt="Twincam Logo" />
             </a>
             <a href="https://cruzoutdoors.com/" target="_blank" rel="noopener noreferrer">
               <img className="h-52 md:h-40 my-6" src={CruzOutdoors} alt="Cruz Outdoors Logo" />
             </a>
           </div>
           <div className="flex flex-wrap justify-around items-center">
-            <a href="http://nuunlife.com/" target="_blank" rel="noopener noreferrer">
-              <img className="w-80 my-6" src={NuunHydration} alt="Nuun Hydration Logo" />
-            </a>
           </div>    
         </div>
       </Section>
