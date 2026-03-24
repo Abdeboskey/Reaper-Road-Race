@@ -21,7 +21,7 @@ const Sponsors = () => {
       <Section>
         <H1>Sponsors</H1>
         <P center>
-          Thank you to our 2025 sponsors!
+          Thank you to our 2026 sponsors!
         </P>
         <div className="flex-col my-4 mx-auto w-4/5">
           <div className="flex flex-wrap justify-around items-center">
