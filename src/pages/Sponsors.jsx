@@ -47,7 +47,7 @@ const Sponsors = () => {
             </a>
           </div>
           <div className="flex flex-wrap justify-around items-center md:my-8">
-              <a href="https://www.frskstes.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://frskates.com/en/" target="_blank" rel="noopener noreferrer">
               <img className="h-52 md:h-40 my-6" src={FR} alt="FR Logo" />
             </a>
           </div>
