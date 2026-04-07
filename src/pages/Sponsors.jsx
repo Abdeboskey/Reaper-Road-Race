@@ -12,7 +12,7 @@ import PiperWheels from 'assets/sponsors/PiperWheels.svg'
 import CruzOutdoors from 'assets/sponsors/CruzOutdoors.svg'
 import Twincam from 'assets/sponsors/twincam.svg'
 import PinnacleRacing from 'assets/sponsors/PinnacleRacing.svg'
-import NuunHydration from 'assets/sponsors/NuunHydration.svg'
+import FR from 'assets/sponsors/FR.svg'
 
 const Sponsors = () => {
 
@@ -44,6 +44,11 @@ const Sponsors = () => {
             </a>
             <a href="https://cruzoutdoors.com/" target="_blank" rel="noopener noreferrer">
               <img className="h-52 md:h-40 my-6" src={CruzOutdoors} alt="Cruz Outdoors Logo" />
+            </a>
+          </div>
+          <div className="flex flex-wrap justify-around items-center md:my-8">
+              <a href="https://www.frskstes.com/" target="_blank" rel="noopener noreferrer">
+              <img className="h-52 md:h-40 my-6" src={FR} alt="FR Logo" />
             </a>
           </div>
           <div className="flex flex-wrap justify-around items-center">
