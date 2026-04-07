@@ -11,7 +11,7 @@ import GriffReaper from 'assets/sponsors/GriffReaper.svg'
 import PiperWheels from 'assets/sponsors/PiperWheels.svg'
 import CruzOutdoors from 'assets/sponsors/CruzOutdoors.svg'
 import Twincam from 'assets/sponsors/twincam.svg'
-import PinnacleRacing from 'assets/sponsors/PinnacleRacing.svg'
+import Luminous from 'assets/sponsors/Luminous.svg'
 import FR from 'assets/sponsors/FR.svg'
 
 const Sponsors = () => {
@@ -49,6 +49,9 @@ const Sponsors = () => {
           <div className="flex flex-wrap justify-around items-center md:my-8">
               <a href="https://frskates.com/en/" target="_blank" rel="noopener noreferrer">
               <img className="h-52 md:h-40 my-6" src={FR} alt="FR Logo" />
+            </a>
+              <a href="https://usa.luminouswheels.com" target="_blank" rel="noopener noreferrer">
+              <img className="h-52 md:h-40 my-6" src={Luminous} alt="Luminous Logo" />
             </a>
           </div>
           <div className="flex flex-wrap justify-around items-center">
