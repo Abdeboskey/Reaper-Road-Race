@@ -8286,6 +8286,40 @@
             "Moreathon": ""
             }
           ]
+        },
+              {
+        "name": "Maximum Reaper Women Overall",
+        "results": [
+          {
+            "Place": "",
+            "Time": "",
+            "Bib": "",
+            "Name": "",
+            "Age": "",
+            "Team": "",
+            "City, State": "",
+            "MPH": "",
+            "SSL": "",
+            "Moreathon": ""
+            }
+          ]
+        },
+      {
+        "name": "Maximum Reaper Men Overall",
+        "results": [
+          {
+            "Place": "",
+            "Time": "",
+            "Bib": "",
+            "Name": "",
+            "Age": "",
+            "Team": "",
+            "City, State": "",
+            "MPH": "",
+            "SSL": "",
+            "Moreathon": ""
+            }
+          ]
         }
       ]
     }
