@@ -112,7 +112,7 @@ const Home = () => {
                   "Men's & Women's Overall Quad",
                   "Men's & Women's 12 & Under",
                   "Men's & Women's 13-18",
-                  "Open (opt out of prize consideration"
+                  "Open (opt out of prizes)"
                 ]}
               </List>
             </div>

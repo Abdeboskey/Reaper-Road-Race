@@ -23,7 +23,8 @@ const SwampRabbitSocial = () => {
         out-and-back skate. A2A time rules are in effect, and we will leave
         on time after a group photo. Mileage will range from 5-20 depending on
         participants' interests. We will meet back at the start afterwards for
-        lunch and some spicy conversation. HELMETS REQUIRED.
+        lunch and some spicy conversation.
+        HELMETS REQUIRED.
       </P>
     </div>
   )
