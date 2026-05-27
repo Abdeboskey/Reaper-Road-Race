@@ -31,7 +31,7 @@ const Home = () => {
             Inline & Quad skating race in Greenville, SC
           </H1>
           <H3>
-            Saturday, May 16th, 2026
+            Saturday, May 15th, 2027
           </H3>
           <AddressLink />
           <P center>
@@ -42,11 +42,11 @@ const Home = () => {
             >
               Where Are We Skating
             </Link>
-            {" "}on Saturday, May 16th, 2026 for the fourth annual Carolina
+            {" "}on Saturday, May 15th, 2027 for the fifth annual Carolina
             Reaper Road Race in Greenville, SC.  Whether you're a fan of inline
             skates, roller skates, skating solo, or skating with your friends,
-            this is an exciting and challenging road race that's already
-            becoming a southern classic.
+            this is an exciting and challenging road race that is continuing 
+            the southern skating spirit of Athens to Atlanta.
           </P>
           <P center>
             Read on for more info about{" "} 
@@ -84,20 +84,21 @@ const Home = () => {
           <H2>Registration Fees 💸</H2>
           <List>
             {[
-              "Single Spicy Lap - $40",
-              "Moreathon - $80",
-              "Maximum Reaper - $100",
-              "Moreathon Relay Team - $140",
+              "Single Spicy Lap - $45",
+              "Moreathon - $90",
+              "Maximum Reaper - $115",
+              "Moreathon Relay Team - $160",
             ]}
           </List>
           <P>
-            Pre-Register by April 22nd, 2026 to guarantee your t-shirt size.
+            Pre-Register by April 22nd, 2027 to guarantee your t-shirt size.
           </P>
           <P>
-            Online Registration closes on May 14th, 2026.
+            Online Registration closes on May 13th, 2027.
           </P>
           <P>
-            On-Site registration will be available on May 16th, 2026, starting at 7:15 am.
+            On-Site registration will be available at Friday packet pickup on May 14th, 
+            and on May 15th, 2027, starting at 7:15am on race morning.
           </P>
         </Section>
         <Section>
@@ -110,7 +111,8 @@ const Home = () => {
                   "Men's & Women's Overall Inline",
                   "Men's & Women's Overall Quad",
                   "Men's & Women's 12 & Under",
-                  "Men's & Women's 13-18"
+                  "Men's & Women's 13-18",
+                  "Open (opt out of prize consideration"
                 ]}
               </List>
             </div>
@@ -119,8 +121,6 @@ const Home = () => {
               <List>
                 {[
                   "Top 3 Overall Teams",
-                  "Top Junior Team",
-                  "Best Team Name",
                 ]}
               </List>
             </div>
