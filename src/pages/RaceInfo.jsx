@@ -72,9 +72,9 @@ const RaceInfo = () => {
               <List>
                 {[
                   "7:15 am - On-site registration and packet pick-up opens",
-                  "8:25 am - Single Spicy Lap & Maximum Reaper pre-race safety briefing",
+                  "8:20 am - Single Spicy Lap & Maximum Reaper pre-race safety briefing",
                   "8:30 am - Single Spicy Lap & stage 1 of Maximum Reaper races start",
-                  "9:25 am - Moreathon & Relay pre-race safety briefing",
+                  "9:20 am - Moreathon & Relay pre-race safety briefing",
                   "9:30 am - Moreathon, Relay, & stage 2 of Maximum Reaper races begin",
                 ]}
               </List>
@@ -83,10 +83,10 @@ const RaceInfo = () => {
               <H3>Registration Fees</H3>
               <List>
                 {[
-                  "Single Spicy Lap - $40",
-                  "Moreathon - $80",
-                  "Maximum Reaper - $100",
-                  "Moreathon Relay Team - $140",
+                  "Single Spicy Lap - $45",
+                  "Moreathon - $90",
+                  "Maximum Reaper - $115",
+                  "Moreathon Relay Team - $160",
                 ]}
               </List>
             </div>
@@ -99,13 +99,13 @@ const RaceInfo = () => {
           <H3>⚠️</H3>
           <P center>
             <b>
-              Online registration will close on Thursday, May 14th, 2026 at 11:59 pm
+              Online registration will close on Thursday, May 13th, 2027 at 11:59 pm
               EDT.
             </b>
           </P>
           <P center>
             <b>
-              On-site registration will be available on Saturday, May 16th, 2026
+              On-site registration will be available on Saturday, May 15th, 2027
               starting at 7:15 am.
             </b>
           </P>
@@ -123,10 +123,9 @@ const RaceInfo = () => {
             "Teams may be comprised of 2, 3, or 4 skaters",
             "Teams may be comprised of same or mixed genders",
             "Teams may be comprised of same or mixed discipline",
-            "Junior Team members must be 14 years old or younger",
           ]}
         </List>
-        <P center>The registration fee for a relay team of any size is $140.</P>
+        <P center>The registration fee for a relay team of any size is $160.</P>
         <P>
           The relay team captain will register all members of the relay team.
           Once registered, all members will be sent an email with a link to
@@ -158,8 +157,6 @@ const RaceInfo = () => {
             <List>
               {[
                 "Top 3 Overall Teams",
-                "Top Junior Team",
-                "Best Team Name",
               ]}
             </List>
           </div>
@@ -179,25 +176,25 @@ const RaceInfo = () => {
       <Section>
         <H2 id="safety">Safety Info ⚠️</H2>
         <P>
-          All skaters must be present for the mandatory safety briefing 5
-          minutes before each race start, 8:25am for the Single Spicy Lap & Maximum Reaper
-          and 9:25am for the Moreathon and Relay.
+          All skaters must be present for the mandatory safety briefing 10
+          minutes before each race start, 8:20am for the Single Spicy Lap & Maximum Reaper
+          and 9:20am for the Moreathon and Relay.
         </P>
         <P>
           <span className="font-bold">
-            Helmets are required for all
-            participants
+            Helmets are required for all participants at all times
+            they are standing up wearing skates. No exceptions. 
           </span>
           . Wrist guards, knee pads, and elbow pads are
           recommended for added personal safety.
         </P>
         <P>
           This is an open-road course with low to medium traffic. Skaters will
-          need to exercise awareness, and prioritize your safety and the
+          need to be aware of their surrondings, and prioritize your safety and the
           safety of your fellow competitors.
         </P>
         <P>
-          Each event will be led out by a police escort, with additional
+          Each event will supported by police escorts, with additional
           roving course marshals on motorcycles.
         </P>
         <div className="pt-10"/>
