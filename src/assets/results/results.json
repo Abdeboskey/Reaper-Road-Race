@@ -7975,7 +7975,148 @@
             "Moreathon": "DNS"
           }
         ]
-      }
+      },
+{
+        "name": "Maximum Reaper Women Overall",
+        "results": [
+  {
+    "Place": 1,
+    "Time": "2:30:10",
+    "Bib": 127,
+    "Name": "Erica Lai",
+    "Age": 16,
+    "Team": "Asphalt Beach",
+    "City, State": "Carmel, IN",
+    "MPH": 14.38,
+    "SSL": "0:29:39",
+    "Moreathon": "2:00:31"
+  },
+  {
+    "Place": 2,
+    "Time": "3:39:07",
+    "Bib": 129,
+    "Name": "Kiira Long",
+    "Age": 38,
+    "Team": "",
+    "City, State": "Fountain Inn, SC",
+    "MPH": 9.86,
+    "SSL": "0:38:10",
+    "Moreathon": "3:00:57"
+  }
+        ]
+      },
+     {"name": "Maximum Reaper Women Overall",
+        "results": [
+  {
+    "Place": 1,
+    "Time": "1:55:56",
+    "Bib": 87,
+    "Name": "Eddy Matzger",
+    "Age": 57,
+    "Team": "Twincam",
+    "City, State": "Floyd, VA",
+    "MPH": 18.63,
+    "SSL": "0:23:37",
+    "Moreathon": "1:32:19"
+  },
+  {
+    "Place": 2,
+    "Time": "2:06:51",
+    "Bib": 131,
+    "Name": "Chad Torkelson",
+    "Age": 41,
+    "Team": "Sk8DadChad",
+    "City, State": "St. Paul, MN",
+    "MPH": 17.03,
+    "SSL": "0:24:15",
+    "Moreathon": "1:42:36"
+  },
+  {
+    "Place": 3,
+    "Time": "2:09:23",
+    "Bib": 124,
+    "Name": "Ricky Franco",
+    "Age": 39,
+    "Team": "",
+    "City, State": "San Jacinto, CA",
+    "MPH": 16.69,
+    "SSL": "0:24:15",
+    "Moreathon": "1:45:08"
+  },
+  {
+    "Place": 4,
+    "Time": "2:17:04",
+    "Bib": 122,
+    "Name": "Mathew Anderson",
+    "Age": 36,
+    "Team": "Atlanta Peachtree Road Rollers",
+    "City, State": "Marietta, GA",
+    "MPH": 15.76,
+    "SSL": "0:50:20",
+    "Moreathon": "1:26:44"
+  },
+  {
+    "Place": 5,
+    "Time": "2:22:20",
+    "Bib": 144,
+    "Name": "Tanner Evan",
+    "Age": 30,
+    "Team": "Precision Racing",
+    "City, State": "Clarkesville, GA",
+    "MPH": 15.18,
+    "SSL": "0:24:33",
+    "Moreathon": "1:57:47"
+  },
+  {
+    "Place": 6,
+    "Time": "2:27:29",
+    "Bib": 121,
+    "Name": "Bradley Adkins",
+    "Age": 31,
+    "Team": "Atlanta Peachtree Road Rollers",
+    "City, State": "Powder Springs, GA",
+    "MPH": 14.65,
+    "SSL": "0:28:17",
+    "Moreathon": "1:59:12"
+  },
+  {
+    "Place": 7,
+    "Time": "2:33:58",
+    "Bib": 145,
+    "Name": "Zac Johnson",
+    "Age": 36,
+    "Team": "Denver Intrepid Skating Team",
+    "City, State": "Denver, CO",
+    "MPH": 14.03,
+    "SSL": "0:29:59",
+    "Moreathon": "2:03:59"
+  },
+  {
+    "Place": 8,
+    "Time": "2:37:27",
+    "Bib": 125,
+    "Name": "Darren Inksetter",
+    "Age": 56,
+    "Team": "Cloud8 DU",
+    "City, State": "Toronto, ON",
+    "MPH": 13.72,
+    "SSL": "0:31:08",
+    "Moreathon": "2:06:19"
+  },
+  {
+    "Place": 9,
+    "Time": "2:41:13",
+    "Bib": 123,
+    "Name": "Brandon Engelberth",
+    "Age": 41,
+    "Team": "Atlanta Peachtree Road Rollers",
+    "City, State": "Atlanta, GA",
+    "MPH": 13.4,
+    "SSL": "0:31:00",
+    "Moreathon": "2:10:13"
+  }
+]
+} 
     ]
   },
   "2026": {
