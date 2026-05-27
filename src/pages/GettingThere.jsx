@@ -25,14 +25,16 @@ const GettingThere = () => {
         />
         <AddressLink />
         <P>
-          Use the above address to navigate to the event location. Parking,
-          on-site registration & packet pick-up, and all race operations will
-          be held at this address.
+          The above address can be used to navigate to the course for parking throughout
+          year while training. PLEASE DO NOT PARK IN BUSINESS LOTS ON THE LOOP WITHOUT 
+          PERMISSION. On-site registration & packet pick-up, and all race operations will
+          be held at the race address in your confirmation email.
         </P>
         <P>
-          On-site parking will be available. Note: some parking will be in the
-          grass, plan accordingly for putting on skates. Surrounding roads will
-          be available for warming up, but please keep an eye out for traffic.
+          On-site parking will be available. Note: We are searching for a new parking
+          location, and the one used year's prior is no longer available. Updates will
+          be broadcast when a new location is set. Surrounding roads will be available 
+          for warming up, but please keep an eye out for traffic.
         </P>
       </Section>
       <Section>
@@ -53,10 +55,10 @@ const GettingThere = () => {
       <Section>
         <H2>Staying in Greenville 🏨</H2>
         <H3>
-          2026 Host Hotel
+          2027 Host Hotel
         </H3>
         <P>
-          This year’s host hotel is located approximately 4 miles from the GSP
+          The host hotel is located approximately 4 miles from the GSP
           airport and 12 miles from the start/finish line of our course. It is
           also the location for our Friday Night packet pickup!
         </P>
@@ -74,13 +76,13 @@ const GettingThere = () => {
           </a>
         </P>
         <P>
-          The group rate only applies to a two night stay from Friday May 15th,
-          through check out on Sunday morning May 17th. No other date
+          The group rate only applies to a two night stay from Friday May 14th,
+          through check out on Sunday morning May 16th. No other date
           configuration is available.
         </P>
         <P>
-          All reservations need to be booked by April 24, 2026, at the latest.
-          Only Two Queen bed rooms are available. Our initial reserved block
+          All reservations need to be booked by April 23, 2027, at the latest.
+          Two Queen bed and single King bed rooms are available. Our initial reserved block
           is limited, and if our room block is filled we may be given
           the chance to add more rooms. The sooner you reserve your rooms
           the better.

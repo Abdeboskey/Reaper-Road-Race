@@ -20,9 +20,10 @@ const SwampRabbitSocial = () => {
           Unity Park
         </a>
         {" "}starting at 9:45 am, and will roll out at 10:00 am for a fun
-        out-and-back skate. Mileage will range from 5-20 depending on
+        out-and-back skate. A2A time rules are in effect, and we will leave
+        on time after a group photo. Mileage will range from 5-20 depending on
         participants' interests. We will meet back at the start afterwards for
-        lunch and some good ol' fashioned socializing.
+        lunch and some spicy conversation. HELMETS REQUIRED.
       </P>
     </div>
   )
