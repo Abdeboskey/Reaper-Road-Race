@@ -68,7 +68,7 @@ const GettingThere = () => {
         <P center>
           <a
             className={linkStyle}
-            href="https://www.choicehotels.com/reservations/groups/HK84Q6"
+            href="https://www.choicehotels.com/reservations/groups/SK49G4"
             target="_blank"
             rel="noopener noreferrer"
           >
